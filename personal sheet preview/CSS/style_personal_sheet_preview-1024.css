@@ -1,0 +1,516 @@
+@charset "utf-8";
+div.container-fluid{
+	font-family: "微軟正黑體","華康粗圓體","超研澤中鋼筆行楷", "文鼎粗行楷";
+}
+
+/*個人頁面正文*/
+div.personal-sheet{
+	padding-top:90px;
+	background-color:rgba(0,0,0,0.02);
+}
+
+div.panel-default{
+	width:15vw; /*調整左側col-md-2大小*/
+}
+
+div.col-md-6.p-s-p-right-side{
+	margin-left:20px; /*調整右側col-md-6位置*/
+}
+
+/*大頭照*/
+.bigpic img{
+	width:15vw;
+	heigh:15vh; /*調整大頭照大小*/
+}
+
+/*驗證身分*/
+div.id-classify{
+	margin-top:1.5vw; /*調整 "驗證身分" 位置*/
+}
+
+span.p-s-p-new-verify a h6{
+	float:right;
+	color:#f56d9e;
+}
+
+span.p-s-p-new-verify a h6:hover{
+	color:#db0a56;	
+}
+
+h4.e-mail,
+h4.phone-number,
+h4.evaluate,
+h4.passport{
+	margin-bottom:0;
+}
+
+div.panel-body h5.check{
+	margin-left:35px;
+	margin-top:0;
+	color:#999;
+}
+
+img.identify-icon1{
+	height:2vw;
+	width:2vw;
+}
+
+/*關於我*/
+span.p-s-p-about-me-edit a h6{
+	float:right;
+	color:#f56d9e;
+}
+
+span.p-s-p-about-me-edit a h6:hover{
+	color:#db0a56;	
+}
+
+div.about-me .panel-body h4{
+	font-family: "微軟正黑體","華康粗圓體","超研澤中鋼筆行楷", "文鼎粗行楷";
+}
+
+div.about-me .panel-body p{
+	font-family: "微軟正黑體","華康粗圓體","超研澤中鋼筆行楷", "文鼎粗行楷";
+}
+
+/*=========我的體驗=========*/
+div.p-s-p-MyExperience{
+	margin-top:2vh;
+}
+
+div.p-s-p-edit-exp-img{
+	margin-top:1vh;
+}
+
+div.p-s-p-edit-exp-img a{
+	color:#7a93dc;
+	text-decoration:none;
+}
+
+div.p-s-p-edit-exp h3 a{
+	padding-left:1vw;
+	margin-top:0;
+}
+
+div.p-s-p-edit-exp-img p{
+	padding-left:1vw;
+}
+
+/*評價星星*/
+div.p-s-p-edit-exp-img p i{
+	color:#FC0;
+}
+
+
+/*價格標籤*/
+h4.p-s-p-edit-exp-price{
+	position:absolute;
+	top:-11vh;
+	min-width:1vw;
+	height:5vh;
+	line-height:5vh;
+	background-color:rgba(0,0,0,0.5);
+	color:#FFF;
+	padding-left:1vw;
+	padding-right:1vw;
+}
+
+h4.p-s-p-edit-exp-price::after{
+	content:  "NTD";
+	font-size:12px;
+	margin-left:1vh;
+}
+
+/*大頭照*/
+img.p-s-p-edit-exp-personal-photo{
+	margin-top:2vh;
+	width:7vw;
+	height:7vw;
+	position:absolute;
+	right:2vw;
+	top:19vh;	
+	border:2px solid #FFF;
+	z-index:1;
+}
+
+/*體驗封面照片*/
+img.p-s-p-edit-exp-photo-cover{
+	display:block;
+	text-align:center;
+	height:25vh;
+	overflow:hidden;
+/*	padding-left:1vw;
+	padding-right:1vw;
+	padding-top:1vh;
+	padding-bottom:1vh; */
+}
+
+/*photo下方文字區域*/
+div.p-s-p-edit-exp-text-group{
+	background-color:#EFEFEF;
+	padding:0;
+	border:1px solid #EFEFEF;
+}
+/*隱藏並縮短標題*/
+div.p-s-p-edit-exp-text-group a{
+	white-space: nowrap;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+	margin-bottom:2vh;
+	margin-top:1vh;
+}
+/*隱藏並縮短標題end*/
+
+p.p-s-p-edit-exp-location{
+	font-size:12px;
+	color:#333;
+	margin-bottom:0;
+	margin-top:-1vh;
+}
+
+div.p-s-p-edit-exp-text-group-left{
+	padding-right:0;
+}
+
+/*評論的部分*/
+p.p-s-p-edit-exp-EL-judgement{
+	font-size:10px;
+}
+
+/*右下角icon位置*/	
+img.p-s-p-edit-exp-EL-Icongroup{
+	width:1.2vw;
+}
+
+div.p-s-p-edit-exp-text-group-right{
+	padding-left:0;
+	margin-top:1.2vh;
+}
+
+
+
+/*查看更多*/
+a.loading-more p{
+	margin-top:1vh;
+}
+
+a.loading-more{
+	color:#f56d9e;
+}
+
+a.loading-more:hover{
+	color:#db0a5b;
+}
+
+/*icon-wall*/
+div.col-md-3 a.evaluate-icon-text{
+	text-decoration:none;
+	color:#333;
+}
+
+
+
+/*舉報此用戶*/
+div.p-s-p-right-side i.fa-flag-o{
+	color:#999;
+}
+
+a.report,
+a.report:hover,
+a.report:focus{
+	color:#999;
+}
+
+a#modal-399168:focus{
+	border: none;
+	box-shadow:none;
+	outline:none;
+}
+
+a.p-s-p-PersonalEdit,
+a.p-s-p-PersonalEdit:hover{
+	color:#f56d9e;
+}
+
+div.container-fluid-icon-wall img{
+	height:2vw;
+	width:2vw;
+}
+
+div.col-md-2 a.evaluate-icon-text{
+	text-decoration:none;
+}
+
+
+
+
+/*===========心願單============*/
+
+/*"心願單"內容*/
+div.row.p-s-p-WishList{
+}
+
+div.p-s-p-WL-img{
+}
+
+
+div.p-s-p-WL-img a{
+	color:#7a93dc;
+	text-decoration:none;
+}
+
+div.p-s-p-WL-img h3 a{
+	padding-left:1vw;
+	margin-top:0;
+}
+
+div.p-s-p-WL-img p{
+	padding-left:1vw;
+}
+
+/*評價星星*/
+div.p-s-p-WL-img p i{
+	color:#FC0;
+}
+
+
+/*價格標籤*/
+h4.p-s-p-WL-price{
+	position:absolute;
+	top:-11vh;
+	min-width:1vw;
+	height:5vh;
+	line-height:5vh;
+	background-color:rgba(0,0,0,0.5);
+	color:#FFF;
+	padding-left:1vw;
+	padding-right:1vw;
+}
+
+h4.p-s-p-WL-price::after{
+	content:  "NTD";
+	font-size:12px;
+	margin-left:1vh;
+}
+
+/*大頭照*/
+img.p-s-p-WL-personal-photo{
+	margin-top:2vh;
+	width:3vw;
+	height:3vw;
+	position:absolute;
+	right:2vw;
+	top:19vh;	
+	border:2px solid #FFF;
+	z-index:1;
+}
+
+/*體驗封面照片*/
+img.p-s-p-WL-photo-cover{
+	display:block;
+	text-align:center;
+	height:25vh;
+	overflow:hidden;
+/*	padding-left:1vw;
+	padding-right:1vw;
+	padding-top:1vh;
+	padding-bottom:1vh; */
+}
+
+/*photo下方文字區域*/
+div.p-s-p-WL-text-group{
+	background-color:#EFEFEF;
+	padding:0;
+	border:1px solid #EFEFEF;
+}
+/*隱藏並縮短標題*/
+div.p-s-p-WL-text-group a{
+	white-space: nowrap;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+	margin-bottom:2vh;
+	margin-top:1vh;
+}
+/*隱藏並縮短標題end*/
+
+p.p-s-p-WL-location{
+	font-size:12px;
+	color:#333;
+	margin-bottom:0;
+	margin-top:-1vh;
+}
+
+div.p-s-p-WL-text-group-left{
+	padding-right:0;
+}
+
+/*評論的部分*/
+p.p-s-p-WL-EL-judgement{
+	font-size:10px;
+}
+
+/*右下角icon位置*/	
+img.p-s-p-WL-EL-Icongroup{
+	width:1.2vw;
+}
+
+div.p-s-p-WL-text-group-right{
+	padding-left:0;
+	margin-top:1.2vh;
+}
+
+
+
+/*評價*/
+div.col-md-2 img.img-circle{
+	width:6vw;
+	height:6vw;
+}
+
+
+/*==============================================================================================================
+													foooter
+=================================================================================================================*/
+div.footerlist-all{
+	margin-top:2vw;
+}
+
+div.footerlist-all li{
+	list-style:none;
+}
+
+div.footerlist{
+	background-color:#666;
+	color:#FFF;
+	font-family: "微軟正黑體","華康粗圓體","超研澤中鋼筆行楷", "文鼎粗行楷";
+	padding:1%;
+	padding-left:10%;
+	padding-right:10%;
+}
+
+div.footerlist a{
+	text-decoration:none;
+	color:#CCC;
+}
+
+input#exampleInputEmail1[type=email]{
+	border-radius:0;
+}
+/* socialsoftware */
+div.socialsoftware{
+	text-align:center;
+	font-size:24px;
+	background-color:#333;
+	color:#FFF;
+	font-family: "微軟正黑體","華康粗圓體","超研澤中鋼筆行楷", "文鼎粗行楷";
+	padding-bottom:2.5vh;
+}
+
+
+div.company p{
+	color:#666;
+	margin-top:2.5vh;
+	font-size:16px;
+}
+
+/*icon design*/
+
+div.socialsoftware-icon a{
+	display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #909090;
+    border-radius: 50px;
+}
+
+div.socialsoftware-icon a i{
+    font-size: 15px;
+    color:#FFF;
+}
+
+div.socialsoftware-icon a i:hover{
+	color:#999;
+}
+
+div.tooltip-inner {
+    width:80px;
+}
+
+
+/*====================test==========================*/
+
+/* carousel */
+.media-carousel 
+{
+  margin-bottom: 0;
+  margin-top: 20px;
+}
+
+#p-s-p-media:hover .carousel-control.left{
+	display:block
+}
+
+#p-s-p-media:hover .carousel-control.right{
+	display:block
+}
+
+/* Previous button  */
+.media-carousel .carousel-control.left 
+{
+  left: 0px;
+  background-image: none;
+  background: none repeat scroll 0 0 rgba(0,0,0,0);
+  height:auto;
+  width :3vw;
+  padding-top:15vh;
+  font-size:40px;
+  display:none;
+}
+
+.media-carousel .carousel-control.left:hover{
+	background-color:rgba(0,0,0,0.5);
+}
+	
+/* Next button  */
+.media-carousel .carousel-control.right 
+{
+  right: 0px;
+  background-image: none;
+  background: none repeat scroll 0 0 rgba(0,0,0,0);
+  height:auto;
+  width : 3vw;
+  padding-top:15vh;
+  font-size:40px;
+  display:none;
+}
+
+.media-carousel .carousel-control.right:hover{
+	background-color:rgba(0,0,0,0.5);
+}
+
+/* Changes the position of the indicators */
+.media-carousel .carousel-indicators 
+{
+  right: 50%;
+  top: auto;
+  bottom: 0px;
+  margin-right: -19px;
+}
+/* Changes the colour of the indicators */
+.media-carousel .carousel-indicators li 
+{
+  background: #c0c0c0;
+}
+.media-carousel .carousel-indicators .active 
+{
+  background: #333333;
+}
+.media-carousel img
+{
+}
+
+/* End carousel */
+
+

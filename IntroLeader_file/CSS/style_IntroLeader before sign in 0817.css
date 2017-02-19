@@ -1,0 +1,340 @@
+@charset "utf-8";
+/*==============================================================================================================
+													navigation bar
+=================================================================================================================*/
+
+body{
+	font-family:"華康粗圓體", "微軟正黑體", "超研澤中鋼筆行楷", "文鼎粗行楷";
+}
+
+div.fix-navbar-top{
+	padding:0px;
+}
+
+nav.navbar{
+	background-color:rgba(0,0,0,0.7);
+	border:none;
+	color:#F00;
+	font-family:'華康粗圓體', '微軟正黑體', '超研澤中鋼筆行楷', '文鼎粗行楷';
+	padding-left:3%;
+	font-size:20px;
+	width:100%;
+
+}
+
+div.navbar-left i{
+	color:#FFF;
+}
+
+div.navbar-header div.form-group input.form-control[type=search]{
+	border:none;
+	background-color:rgba(0,0,0,0);
+	width:50vw;
+	padding-left:0px;
+	font-size:16px;
+	color:#FFF;
+}
+
+div.navbar-header div.form-group input.form-control[type=search]:focus{
+	border: none;
+	box-shadow: none;
+}
+
+a.navbar-brand{
+	color:#FFF;
+}
+
+ul.navbar-right{
+	font-size:20px;
+	margin-right:5%;
+}
+
+/*調整navbar字體置中*/
+a.navbar-brand{
+	padding-top:3vh;
+}
+div.navbar-left{
+	padding-top:1vh;
+}
+
+a.btn.navbar-list{
+	height:10vh;
+	border-radius:0%;
+	padding-top:3vh;
+}
+
+li.navbar-list-share{
+	border-right:1.5px solid #CCC;
+	border-left:1.5px solid #CCC;
+}
+
+li.navbar-list-help{
+	border-right:1.5px solid #CCC;
+	padding-right:1vw;
+	padding-left:1vw;
+}
+
+/*span.be-share{
+	border-right:1px solid #CCC;
+	border-left:1px solid #CCC;
+	padding:8px 10px 8px 10px;
+}*/
+
+
+li.navbar-list-share:hover .dropdown-menu.navbar-list-content{
+	display:block;	
+}
+
+
+a#modal-87912{
+	outline:none;
+	padding-top:3vh;
+}
+
+/*Alert Box for SignIn*/
+div.modal-dialog{
+	text-align:center;
+	font-family:"華康粗圓體", "微軟正黑體", "超研澤中鋼筆行楷";
+}
+
+div.modal-body img{
+	height:10vh;
+}
+
+div.checkbox{
+	text-align:center;
+}
+
+div.modal-footer button:active{
+	outline: none;
+	border: none;	
+}
+
+/* 快速註冊下拉選單的部分 */
+button.signin-button{
+	float:left;
+}
+
+div.panel-heading-id a{
+	float:right;
+}
+
+div.panel-body-id{
+	margin-top:5vw;
+}
+
+
+
+
+
+/*=========================每一個Step的標題=============================*/
+div.createsop h3.text-left{
+	font-size:36px;
+	font-weight:bolder;
+}
+/*=========================上方大圖=============================*/
+div.header{
+	background-image:url(../Image/header3.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position: center;
+	height:90vh;
+	vertical-align:top;
+	width:100vw;
+}
+
+div.header-intro{
+	background-color:rgba(0,176,176,1);
+	/*background-color:#FCC214;*/
+	color:#FFF;
+	width:30vw;
+	height:45vh;
+	position:relative;
+	top:30vh;
+	font-family:"華康粗圓體", "微軟正黑體", "細明體";
+}
+
+div.header-intro h1{
+	padding:0;
+}
+
+div.bealeader{
+
+}
+
+div.bealeader a{
+	background-color:#004080;
+	border:none;
+	border-radius:0;
+	height:10vh;
+	line-height:10vh;
+	padding-top:0;
+	padding-bottom:0;
+	color:#FFF;
+	border-bottom:3px solid #00274F;
+}
+
+div.bealeader a:hover{
+	color:#FFF;
+	background-color:#005EBB;
+	border-bottom:2px solid #00274F;
+}
+
+/*=========================如何創建=============================*/
+div.howtocreate{
+	text-align:center;
+	font-family:"華康粗圓體", "微軟正黑體", "細明體";
+	background-color:rgba(238,238,238,1);
+}
+
+/*=========================遊戲規則說明Step.1=============================*/
+div.side-empty-step1{
+	background-color:rgba(238,238,238,1);
+	height:65vh;
+}
+
+div.createsop-step1{
+	height:65vh;
+	font-family:"華康粗圓體", "微軟正黑體", "細明體";
+	border-bottom:8vh solid rgba(238,238,238,1);
+}
+/*=========================遊戲規則說明Step.2=============================*/
+div.side-empty-step2{
+	background-color:rgba(238,238,238,1);
+	height:65vh;
+}
+
+div.createsop-stpe2{
+	height:65vh;
+	font-family:"華康粗圓體", "微軟正黑體", "細明體";
+	border-bottom:8vh solid rgba(238,238,238,1);	
+}
+/*=========================遊戲規則說明Step.3=============================*/
+div.side-empty-step3{
+	background-color:rgba(238,238,238,1);
+	height:90vh;
+}
+
+div.createsop-stpe3{
+	height:90vh;
+	font-family:"華康粗圓體", "微軟正黑體", "細明體";
+	border-bottom:8vh solid rgba(238,238,238,1);	
+}
+/*=========================遊戲規則說明Step.3=============================*/
+div.side-empty-step4{
+	background-color:rgba(238,238,238,1);
+	height:50vh;
+}
+
+div.createsop-stpe4{
+	height:50vh;
+	font-family:"華康粗圓體", "微軟正黑體", "細明體";
+	background-color:rgba(238,238,238,1);	
+}
+
+/*=========================下方大圖=============================*/
+div.footer-photo{
+	background-image:url(../Image/footer.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position: center;
+	background-attachment:fixed;
+	height:90vh;
+	width:100vw;
+	padding-top:30vh;
+}
+
+div.footer-photo-intro{
+	background-color:rgba(0,91,91,0.7);
+	font-family:"華康粗圓體", "微軟正黑體", "細明體";
+	color:#FFF;
+	height:30vh;
+}
+
+div.footer-photo-intro h1{
+	padding:0;
+}
+
+div.bealeader-footer a{
+	background-color:#924949;
+	border:none;
+	border-radius:0;
+	height:10vh;
+	line-height:10vh;
+	padding-top:0;
+	padding-bottom:0;
+	color:#FFF;
+	border-bottom:3px solid #7C3F3F;
+	font-size:26px;
+	margin-top:1vh;
+}
+
+div.bealeader-footer a:hover{
+	color:#FFF;
+	background-color:#A75454;
+	border-bottom:2px solid #7C3F3F;
+}
+
+
+/*==============================================================================================================
+													foooter
+=================================================================================================================*/
+
+
+div.footerlist-all li{
+	list-style:none;
+}
+
+div.footerlist{
+	background-color:#666;
+	color:#FFF;
+	font-family:"華康粗圓體", "微軟正黑體", "超研澤中鋼筆行楷", "文鼎粗行楷";
+	padding:1%;
+	padding-left:10%;
+	padding-right:10%;
+}
+
+div.footerlist a{
+	text-decoration:none;
+	color:#CCC;
+}
+
+input#exampleInputEmail1[type=email]{
+	border-radius:0;
+}
+/* socialsoftware */
+div.socialsoftware{
+	text-align:center;
+	font-size:24px;
+	background-color:#333;
+	color:#FFF;
+	font-family:"華康粗圓體", "微軟正黑體", "超研澤中鋼筆行楷", "文鼎粗行楷";
+	padding-bottom:2.5vh;
+}
+
+
+div.company p{
+	color:#666;
+	margin-top:2.5vh;
+	font-size:16px;
+}
+
+/*icon design*/
+
+div.socialsoftware-icon a{
+	display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #909090;
+    border-radius: 50px;
+}
+
+div.socialsoftware-icon a i{
+    font-size: 15px;
+    color:#FFF;
+}
+
+div.socialsoftware-icon a i:hover{
+	color:#999;
+}
+

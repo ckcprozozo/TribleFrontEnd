@@ -1,0 +1,614 @@
+ @charset "utf-8";
+
+/*==========================================================================================================================
+														會員資料頁面
+===========================================================================================================================*/
+
+/*================================
+    navbar-bottom-list(nav下方bar)
+==================================*/
+div.m-p-sheet{
+	font-family:"微軟正黑體";
+}
+
+
+div.row.NavbarBottom{
+	margin-top:8vh;
+	background-color:#82d8d5;
+	height:6vh;
+}
+
+span.NavbarBottomListCotent{
+	padding:2vh;
+	font-size:14px;
+	height:6vh;
+	line-height:6vh;
+}
+
+
+span.NavbarBottomListCotent a{
+	color:#000;
+	text-decoration:none;
+	border:1px solid #82d8d5;
+}
+
+div.col-md-10 span.NavbarBottomListCotent a{
+	padding:1vh;
+}
+
+span.active.NavbarBottomListCotent a{
+	padding-left:0;
+}
+
+
+span.NavbarBottomListCotent a:hover,
+span.NavbarBottomListCotent a:focus{
+	color:#FFF;
+}
+
+span.active.NavbarBottomListCotent a{
+	color:#FFF;
+}
+
+/*================================================================
+   						"你的分享" 正文開始
+=================================================================*/
+
+/*========================你的分享 共同部分===============================*/
+div.container-fluid{
+	font-family: "微軟正黑體", "華康粗圓體", "超研澤中鋼筆行楷", "文鼎粗行楷";
+}
+
+div.member-profile-YouShare{
+	background-color:#f9f9f9;
+	padding-bottom:2vw;
+}
+
+div.row-member-profile-YouShare{
+	margin-top:8vh;
+}
+
+button.btn.btn-default:active,
+button.btn.btn-default:focus{
+	outline:none;
+}
+
+
+
+/*你的分享左側 Menu*/
+ul.m-p-y-s-menu li a{
+	font-size:20px;
+	font-weight:bold;
+	height:7vh;
+	line-height:7vh;
+	text-decoration:none;
+	color:#999;
+}
+
+ul.m-p-y-s-menu li a:hover{
+	color:#CCC;
+}
+
+ul.m-p-y-s-menu li a:focus{
+	color:#000;
+}
+
+ul.m-p-y-s-menu li.active a{
+	color:#000;
+}
+
+button.m-p-y-u-NewShare{
+	margin-top:4vh;
+	background-color:#f56d9e;
+	color:#FFF;
+	border-radius:0;
+}
+
+button.m-p-y-u-NewShare:hover,
+button.m-p-y-u-NewShare:focus,
+button.btn.m-p-y-u-NewShare:active{
+	border-radius:0;
+	background-color:#ef426f;
+	color:#FFF;
+}
+
+
+/*============================================
+				預訂條件
+============================================*/
+div.m-p-y-s-BookingConditionText{
+	border-bottom:1px solid #CCC;
+	margin-left:1vw;
+	margin-right:1vw;
+	padding-bottom:3vh;
+}
+
+div.m-p-y-s-BookingConditionText span a{
+	color:#f56d9e;	
+}
+
+div.m-p-y-s-BookingConditionText span a:hover,
+div.m-p-y-s-BookingConditionText span a:focus{
+	color:#ef426f;
+}
+
+button.m-p-y-u-SaveBooking{
+	background-color:#f56d9e;
+	color:#FFF;
+	border-radius:0;
+	margin-top:4vh;
+	margin-bottom:4vh;
+	margin-left:1vw;
+}
+
+button.m-p-y-u-SaveBooking:hover,
+button.m-p-y-u-SaveBooking:focus,
+button.btn.m-p-y-u-SaveBooking:active{
+	border-radius:0;
+	background-color:#ef426f;
+	color:#FFF;
+}
+
+
+
+/*=============================你的分享 不同部分=====================================*/
+
+/*你的分享 右側內容 border,高,寬*/
+
+div.col-md-8.MemberProfileYourShareContent.none{
+	border:1px solid #CCC;
+	width:65vw;
+	background-color:#FFF;
+	/*min-height:70vh;*/
+}
+
+/*===================你的分享 右側內容========================*/
+
+/*============================================
+				你的體驗
+============================================*/
+
+/*你的體驗上方list*/
+ul.nav.nav-tabs.YourExpList{
+	border:none;
+}
+
+ul.nav.nav-tabs.YourExpList li.YourExpListName a{
+	border:none;
+	background-color:#f9f9f9;
+	color:#000;
+	border-bottom:2px solid #f9f9f9;
+}
+
+ul.nav.nav-tabs.YourExpList li.active.YourExpListName a{
+	border-bottom:2px solid #82d8d5;
+}
+
+ul.nav.nav-tabs.YourExpList li.YourExpListName a:hover,
+ul.nav.nav-tabs.YourExpList li.YourExpListName a:focus{
+	color:#000;
+	border-bottom:2px solid #82d8d5;
+}
+
+div.tab-content.YourExpContent{
+	margin-top:1vh;
+	border:1px solid #CCC;
+	min-height:20vh;
+	padding-bottom:2vh;
+	background-color:#FFF;
+}
+
+
+/*============你的體驗-none==============*/
+/*進行中*/
+div.YourExpContinue.none{
+	height:63vh;
+	text-align:center;
+	padding-top:20vh;
+}
+/*審核*/
+div.YourExpCheck.none{
+	height:63vh;
+	text-align:center;
+	padding-top:20vh;
+}
+
+/*已發布*/
+div.YourExpRelease.none{
+	height:63vh;
+	text-align:center;
+	padding-top:20vh;
+}
+
+/*未發布*/
+div.YourExpUnpublish.none{
+	height:63vh;
+	text-align:center;
+	padding-top:20vh;
+}
+
+
+
+/*=============你的體驗-show==============*/
+
+
+/*===========================進行中========================*/
+/*=====草稿=====*/
+div.y-s-y-e-draft-Content{
+	border-bottom:1px solid #CCC;
+	margin-left:1vw;
+	margin-right:1vw;
+	padding-top:1.5vh;
+	padding-bottom:1.5vh;
+}
+
+h4.y-s-y-e-draft{
+	color:#000;
+}
+
+/*體驗 封面圖*/
+div.y-s-y-e-img img{
+	width:100%;
+	margin-top:1vh;
+}
+
+/*完成趴數*/
+div.progress.y-s-y-e{
+	margin-top:1vh;
+}
+div.progress-bar.y-s-y-e{
+	background-color:#82d8d5;
+}
+p.y-s-y-e-complete-pecent{
+	margin-top:-2vh;
+	color:#82d8d5;
+}
+
+p.y-s-y-e-update{
+	color:#999;
+}
+
+button.y-s-y-e-EditButton{
+	margin-top:1vh;
+	background-color:#f56d9e;
+	color:#FFF;
+	border:none;
+}
+
+button.y-s-y-e-EditButton:hover,
+button.y-s-y-e-EditButton:focus,
+button.btn.y-s-y-e-EditButton:active{
+	background-color:#ef426f;
+	color:#FFF;
+	border:none;
+}
+
+button.y-s-y-e-PreviewButton{
+	margin-top:1.5vh;
+}
+
+
+/*=====退件=====*/
+div.y-s-y-e-reject-Content{
+	border-bottom:1px solid #CCC;
+	margin-left:1vw;
+	margin-right:1vw;
+	padding-top:1.5vh;
+	padding-bottom:1.5vh;
+}
+
+h4.y-s-y-e-reject{
+	color:#ef426f;
+}
+
+.y-s-y-exp-content i{
+	color:#ef426f;
+}
+
+/*=======================================審核=====================================*/
+div.y-s-y-e-check-Content{
+	margin-left:1vw;
+	margin-right:1vw;
+	padding-top:1.5vh;
+	padding-bottom:1.5vh;
+	border-bottom:1px solid #CCC;
+}
+
+h4.y-s-y-e-check{
+	color:#fcb131;
+}
+
+a.y-s-y-exp-know{
+	color:#f56d9e;
+}
+
+a.y-s-y-exp-know:hover,
+a.y-s-y-exp-know:focus{
+	color:#ef426f;
+}
+
+/*=======================================已發佈===================================*/
+/*發布 or 未發布下拉式選單*/
+div.y-s-y-e-release-selectbox{
+	margin-top:1.5vh;
+	width:6vw;
+}
+
+div.y-s-y-e-release-Content{
+	margin-left:1vw;
+	margin-right:1vw;
+	padding-top:1.5vh;
+	padding-bottom:1.5vh;
+	border-bottom:1px solid #CCC;
+}
+
+
+
+/*=======================================未發布=====================================*/
+/*發布 or 未發布下拉式選單*/
+div.y-s-y-e-unpublish-selectbox{
+	margin-top:1.5vh;
+	width:6vw;
+}
+
+div.y-s-y-e-unpublish-Content{
+	margin-left:1vw;
+	margin-right:1vw;
+	padding-top:1.5vh;
+	padding-bottom:1.5vh;
+	border-bottom:1px solid #CCC;
+}
+
+/*============================================
+				你的預定
+============================================*/
+
+/*你的預定-state1*/
+a.y-s-ViewPastReport-state1{
+	color:#f56d9e;
+}
+a.y-s-ViewPastReport-state1:hover,
+a.y-s-ViewPastReport-state1:focus{
+	color:#ef426f;
+}
+
+a.y-s-CreateNewExp{
+	color:#f56d9e;
+}
+
+a.y-s-CreateNewExp:hover,
+a.y-s-CreateNewExp:focus{
+	color:#ef426f;
+}
+
+div.m-p-y-s-YourBookingContent-state1-a{
+	border:1px solid #CCC;
+	background-color:#FFF;
+}
+
+div.m-p-y-s-YourBookingContent-state1-b{
+	border:1px solid #CCC;
+	display:none;
+	background-color:#FFF;
+}
+
+/*你的預定-state2*/
+a.y-s-ViewPastReport-state2{
+	color:#f56d9e;
+}
+a.y-s-ViewPastReport-state2:hover,
+a.y-s-ViewPastReport-state2:focus{
+	color:#ef426f;
+}
+
+div.m-p-y-s-YourBookingContent-state2-a{
+	border:1px solid #CCC;
+	background-color:#FFF;
+}
+
+div.m-p-y-s-YourBookingContent-state2-b{
+	border:1px solid #CCC;
+	display:none;
+	background-color:#FFF;
+}
+
+/*全部預訂紀錄title*/
+div.row.y-b-panel-heading{
+	background-color:#DDD;
+	border-bottom:1px solid #CCC;
+}
+
+h4.y-b-panel-title{
+	height:5vh;
+	line-height:5vh;
+}
+
+a.y-s-WillBooking-state2-link{
+	color:#f56d9e;
+	margin-top:5vh;
+}
+
+a.y-s-WillBooking-state2-link:hover,
+a.y-s-WillBooking-state2-link:focus{
+	color:#ef426f;
+}
+
+/*預定紀錄list*/
+div.YourBookingList{
+	border-bottom:1px solid #CCC;
+	margin-left:1vw;
+	margin-right:1vw;
+	margin-top:2vh;
+}
+
+/*探險家大頭貼*/
+div.to-explorer-information-img a img{
+	width:4vw;
+	height:4vw;
+	border-radius: 50%;
+}
+
+div.to-explorer-information-img a{
+	color:#333;
+}
+
+/*詳情*/
+div.y-b-detail ul li a{
+	color:#f56d9e;
+}
+div.y-b-detail ul li a:hover,
+div.y-b-detail ul li a:focus{
+	color:#ef426f;
+}
+
+div.y-b-detail{
+	width:9vw;
+}
+
+
+/*已接受*/
+div.row.y-b-status-AlreadyAccept{
+	border-bottom:1px solid #CCC;
+	margin-left:1vw;
+	margin-right:1vw;
+	padding-top:1.5vh;
+}
+
+h4.y-b-s-a-accept{
+	color:#ef426f;
+}
+
+/*已拒絕*/
+div.row.y-b-status-AlreadyReject{
+	border-bottom:1px solid #CCC;
+	margin-left:1vw;
+	margin-right:1vw;
+	padding-top:1.5vh;
+}
+
+h4.y-b-s-a-reject{
+	color:#fcb131;
+}
+
+/*已取消*/
+div.row.y-b-status-AlreadyCancel{
+	border-bottom:1px solid #CCC;
+	margin-left:1vw;
+	margin-right:1vw;
+	padding-top:1.5vh;
+}
+
+h4.y-b-s-a-cancel{
+	color:#82d8d5;
+}
+
+/*你的預定下方分頁*/
+ul.pagination li a{
+	margin-right:1vw;
+	color:#91dfdf;
+}
+ul.pagination li a:hover,
+ul.pagination li a:focus{
+	background-color:#FFF;
+}
+
+div.pagination-bar{
+	text-align:center;
+}
+
+
+/*你的預定-state3*/
+div.m-p-y-s-YourBookingContent-state3-a{
+	border:1px solid #CCC;
+	background-color:#FFF;
+}
+a.y-s-PastReport-state3-link{
+	color:#f56d9e;
+	margin-top:5vh;
+}
+
+a.y-s-PastReport-state3-link:hover,
+a.y-s-PastReport-state3-link:focus{
+	color:#ef426f;
+}
+
+div.m-p-y-s-YourBookingContent-state3-b{
+	display:none;
+	border:1px solid #CCC;
+	background-color:#FFF;
+}
+
+a.y-s-WillBooking-state3-link{
+	color:#f56d9e;
+	margin-top:5vh;
+}
+
+a.y-s-WillBooking-state3-link:hover,
+a.y-s-WillBooking-state3-link:focus{
+	color:#ef426f;
+}
+
+/*已暫准*/
+h4.y-b-s-a-provisional{
+	color:#999;
+}
+
+/*確認訂單*/
+div.y-b-ConfirmOrder{
+	padding-left:0;
+}
+
+
+/*接受 or 取消*/
+div.row.y-b-status-Checking{
+	border-bottom:1px solid #CCC;
+	margin-left:1vw;
+	margin-right:1vw;
+	padding-top:1.5vh;
+}
+
+a.y-b-status-CheckingOrder{
+	border:none;
+	background-color:#f56d9e;
+	border-radius:0;
+	color:#FFF;
+}
+
+a.btn.y-b-status-CheckingOrder:hover,
+a.btn.y-b-status-CheckingOrder:focus,
+a.btn.y-b-status-CheckingOrder:active{
+	background-color:#ef426f;
+	color:#FFF;
+	outline:none;
+}
+
+button.y-b-s-a-accept{
+	background-color:#f56d9e;
+	color:#FFF;
+	border:none;
+	border-radius:0;
+}
+
+button.y-b-s-a-accept:hover,
+button.btn.y-b-s-a-accept:focus,
+button.btn.y-b-s-a-accept:active{
+	background-color:#ef426f;
+	color:#FFF;
+}
+
+button.y-b-s-a-reject{
+	background-color:#7a93dc;
+	color:#FFF;
+	border:none;
+	border-radius:0;
+}
+
+button.y-b-s-a-reject:hover,
+button.y-b-s-a-reject:focus,
+button.btn.y-b-s-a-reject:active{
+	background-color:#5071d1;
+	color:#FFF;
+}
+
+
+
