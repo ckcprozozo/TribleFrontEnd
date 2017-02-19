@@ -1,0 +1,498 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    
+<title>personal sheet preview</title>
+
+	<meta name="description" content="Offical webpage of TripCelL">
+    <meta name="author" content="TripCelL_productor">
+
+    <link href="CSS/style_personal sheet preview - 0805.css" rel="stylesheet">
+	<link href="../all_file/CSS/bootstrap.min.css" rel="stylesheet">
+	<link href="../all_file/CSS/animate.css" rel="stylesheet">
+    <link href="../all_file/CSS/hover-min.css" rel="stylesheet">
+    
+    
+</head>
+
+<body>
+<!--==========================================================================================================================
+                 										navigation
+===========================================================================================================================-->
+<div class="container-fluid">
+	<div class="row ">
+		<div class="col-md-12 fix-navbar-top"> <!--data-spy="affix" data-offset-top="330" data-offset-bottom="330"-->
+			<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            
+				<div class="navbar-header">				 
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						 <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+					</button> <a class="navbar-brand" href="#" style="border-right:1px solid #999">Brand</a>
+                    
+                    <div class="navbar-form navbar-left" role="search">
+                    	<i class="fa fa-search" aria-hidden="true"></i>
+						<div class="form-group">
+							<input type="search" class="form-control" placeholder="想去哪裡 ?"/>
+						</div> 
+				    </div>
+                   
+                    
+				</div><!--colse for navbar-header!-->
+				
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse">
+			
+					<ul class="nav navbar-nav navbar-right">
+                    	<li class="navbar-list-system-notice">
+                        	<a href="#" class="dropdown-toggle btn nabar-list"><span class="system-notice">收件夾</span></a>
+                            	<ul class="dropdown-menu navbar-list-system-notice-content">
+              						<li><a href="#" class="hvr-curl-bottom-right"><h5>通知<span class="space"></span></h5></a></li>
+                                		<li class="divider"></li>
+                                	<li><a href="#" class="hvr-curl-bottom-right"><h5>訊息<span class="space"></span></h5></a></li>
+            					</ul>
+                        </li>
+                        
+                        <li class="navbar-list-share-trip">
+                        	<a href="#" class="dropdown-toggle btn nabar-list"><span class="share-trip">分享家</span></a>
+                            	<ul class="dropdown-menu navbar-list-share-trip-content">
+              						<li><a href="#" class="hvr-curl-bottom-right"><h5>分享家介紹<span class="space"></span></h5></a></li>
+                                		<li class="divider"></li>
+                                	<li><a href="#" class="hvr-curl-bottom-right"><h5>管理你的分享<span class="space"></span></h5></a></li>
+                                        <li class="divider"></li>
+                                	<li><a href="#" class="hvr-curl-bottom-right"><h5>創建體驗<span class="space"></span></h5></a></li>
+                                		<li class="divider"></li>
+                                	<li><a href="#" class="hvr-curl-bottom-right"><h5>交易紀錄<span class="space"></span></h5></a></li>
+                                		<li class="divider"></li>
+                                	<li><a href="#" class="hvr-curl-bottom-right"><h5>待客之道<span class="space"></span></h5></a></li>
+
+            				    </ul>
+                        </li>
+                        
+              			<li class="navbar-list-experience-list">
+                        	<a href="#" class="dropdown-toggle btn nabar-list"><span class="experience-list">體驗</span></a>
+                        </li>
+                        
+                        <li class="navbar-list-personal-photo">
+                        	<a href="#" class="dropdown-toggle btn nabar-list-img">Ian                        
+								<img alt="大頭貼" src="PIC/four-leaf.jpg"/ class="profile">                                	
+                       	 	</a>
+                            	<ul class="dropdown-menu navbar-list-personal-photo-content">
+              						<li><a href="#" class="hvr-curl-bottom-right"><h5>編輯個人資料<span class="space"></span></h5></a></li>
+                                    	<li class="divider"></li>
+                                    <li><a href="#" class="hvr-curl-bottom-right"><h5>帳戶設定<span class="space"></span></h5></a></li>
+                                		<li class="divider"></li>
+                                	<li><a href="#" class="hvr-curl-bottom-right"><h5>心願單<span class="space"></span></h5></a></li>
+                                    	<li class="divider"></li>
+                                    <li><a href="#" class="hvr-curl-bottom-right"><h5>幫助<span class="space"></span></h5></a></li>
+                                    	<li class="divider"></li>
+                                    <li><a href="#" class="hvr-curl-bottom-right"><h5>登出<span class="space"></span></h5></a></li>
+            				    </ul>
+                        </li>
+					</ul>   <!--close for nav navbar-nav navbar-right!-->                     
+				</div>  <!--close for collapse navbar-collapse!-->				
+			</nav>
+            </div>
+            </div>
+            </div>
+  
+<!--==========================================================================================================================
+             											個人頁面預覽
+============================================================================================================================-->
+
+<div class="container-fluid personal-sheet">
+	<div class="row">
+		<div class="col-md-2">
+		</div>
+<!--======================================
+                 大頭照
+==========================================-->        
+		<div class="col-md-2 bigpic">
+		<img alt="大頭照" src="PIC/zi-yui.jpg" />
+        
+<!--======================================
+                 驗證身分列表
+==========================================-->            
+			<div class="panel panel-default id-classify">
+				<div class="panel-heading">
+					<h3 class="panel-title">
+						已驗證身分					
+                    	<span class="p-s-p-new-verify"><a href="#"><h6>新增驗證</h6></a></span>
+                    </h3>
+				</div>
+                
+				<div class="panel-body">
+					<h4 class="e-mail"><i class="fa fa-check-square-o" aria-hidden="true"></i> 電子信箱</h4>
+                    	<h5 class="e-mail check">已驗證</h5>
+                    <h4 class="phone-number"><i class="fa fa-check-square-o" aria-hidden="true"></i> 電話號碼</h4>
+                    	<h5 class="phone-number check">********89</h5>
+                    <h4 class="evaluate"><i class="fa fa-check-square-o" aria-hidden="true"></i> 獲得評價</h4>
+                    	<h5 class="evaluate check"><span class="several-evaluation">1095</span>條評價</h5>
+                    <h4 class="passport"><i class="fa fa-check-square-o" aria-hidden="true"></i> 身分驗證</h4>
+                    	<h5 class="passport check">護照</h5>
+				</div>
+			</div> <!-- close panel panel-default id-classify-->
+<!--======================================
+                 關於我
+==========================================-->               
+			<div class="panel panel-default about-me">
+				<div class="panel-heading">
+					<h3 class="panel-title">
+						關於我
+                        <span class="p-s-p-about-me-edit"><a href="#"><h6>編輯</h6></a></span>
+					</h3>
+				</div>
+				<div class="panel-body">				
+                       <h4><b>學校</b></h4>               	 
+                           <p class="school">FJ University</p>
+                           <p class="school">Taiwan University</p>                        
+                       <h4><b>工作</b></h4>
+                           <p class="job">家裡蹲CEO</p>
+                           <p class="job">阿里久久董事長</p>
+                       <h4><b>語言</b></h4>
+                           <p class="language">中文， English</p>
+				</div>
+                
+			</div> <!--close panel panel-default id-classify-->
+
+<!--======================================
+                 我所創建過的旅程
+==========================================--> 
+              <h3 class="journey">我的旅程 (<span class="experience-count">2</span>)</h3>
+              	<a href="#" class="edit-ex1-link">
+                	<div class="edit-ex1-img">
+                    	<div class="edit-ex1-text">
+                    		<p class="activity"><b>衝浪體驗</b></p>
+                        	<p class="location"><b>屏東，台灣</b></p>
+                   		</div>
+                	</div>
+                </a>
+                 
+             	<a href="#" class="edit-ex2-link">
+                	<div class="edit-ex2-img">
+                    	<div class="edit-ex2-text">
+                    		<p class="activity"><b>高空跳傘</b></p>
+                        	<p class="location"><b>宜蘭，台灣</b></p>
+                        </div>
+                </div> 
+                </a> 
+                
+			    <a href="#" class="loading-more"><p>查看更多體驗 >></P></a>
+
+		</div>  <!-- close col-md-2-->
+<!--======================================
+                 右半邊
+==========================================-->          
+		<div class="col-md-6 p-s-p-right-side"> 
+		  <h1><b>您好, 我是<span class="second-name">小志</span>！</b></h1>            
+          		<p class="location">
+                <span class="p-s-p-country">西門町</span>
+          		<span class="p-s-p-city">。台北</span>
+          		<span class="p-s-p-register">。註冊時間: 2016年6月</span>
+                </p>
+		  
+<!--======================================
+                 舉報此用戶
+==========================================-->          
+          <i class="fa fa-flag" aria-hidden="true"></i>  
+		  <a id="modal-399168" href="#modal-container-399168" role="button" class="btn" data-toggle="modal">舉報此用戶</a>
+			
+			<div class="modal fade" id="modal-container-399168" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							 
+							<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+								×
+							</button>
+							<h4 class="modal-title" id="myModalLabel">
+							  您想匿名舉報此用戶嗎?
+							</h4>
+						</div> <!--close modal-header-->                    
+						<div class="modal-body">
+                          <div class="container-fluid">
+	 						<div class="row">
+							  <div class="col-md-12-modal-body">
+								<p>請選擇下列原因之一，我們的團隊將會跟進</p> 
+								<button type="button" class="btn btn-block btn-default">
+									線上安排行程與實際不符
+								</button> 
+								<button type="button" class="btn btn-default btn-block">
+									領頭羊太醜
+								</button> 
+								<button type="button" class="btn btn-default btn-block">
+									台灣食物不好吃
+								</button> 
+								<button type="button" class="btn btn-default btn-block">
+									其他
+								</button>
+								</div> <!--close col-md-12-modal-body-->
+							 </div> <!--close row-->
+						  </div> <!--close container-fluid-->
+						</div> <!--close modal-body-->
+						<div class="modal-footer">							
+							<button type="button" class="btn btn-default">
+								送出
+							</button>
+						</div> <!--close modal-footer-->
+					</div> <!--close modal-content-->
+					
+				</div> <!--close modal-dialog-->
+				
+			</div>  <!--close modal fade-->
+			
+			<p class="p-s-p-introduce">您好，歡迎來到台灣， 希望我可以帶給你一段難忘的台灣深度之旅！！</p>
+<!--======================================
+                 icon-wall
+==========================================-->               
+			<div class="container-fluid-icon-wall">
+				<div class="row">
+					<div class="col-md-2">
+			 			<p class="good-icon"><i class="fa fa-thumbs-o-up fa-2x" aria-hidden="true" ></i>優質分享</p>
+					</div>
+					<div class="col-md-2">
+			 			<p class="evaluate-icon"><i class="fa fa-comment-o fa-2x" aria-hidden="true"></i>
+                        <a href="#" class="evaluate-icon-text">評價 (<span class="evaluate-count">2</span>)</a></p>                    
+					</div>
+					<div class="col-md-2">
+			 			<p class="verify-icon"><i class="fa fa-check-circle fa-2x" aria-hidden="true"></i>已驗證</p>
+					</div>
+
+					<div class="col-md-2">
+					</div>
+					<div class="col-md-2">
+					</div>
+					<div class="col-md-2">
+					</div>
+				</div> <!--close row-->
+			</div> <!--close container-fluid-->
+<!--======================================
+                 我的最愛
+==========================================-->
+			<h3 class="p-s-p-favorite">心願單 (<span class="p-s-p-favorite">3</span>)</h3> 
+            
+			<div class="row">
+            	<a href="#" class="my-favorite-1-link">
+					<div class="col-md-4 my-favotite-1-img">
+                		<div class="my-favotite-1-text">
+                    		<p class="activity"><b>澡堂體驗</b></p>
+                        	<p class="location"><b>首爾，韓國</b></p>
+                    	</div>
+					</div>
+                </a> 
+                   
+				<a href="#" class="my-favorite-2-link">
+					<div class="col-md-4 my-favotite-2-img">
+                		<div class="my-favotite-2-text">
+                    		<p class="activity"><b>夜店狂歡</b></p>
+                        	<p class="location"><b>歌舞伎町，日本</b></p>
+                    	</div>
+					</div>
+                </a>
+                
+                <a href="#" class="my-favorite-3-link">
+					<div class="col-md-4 my-favotite-3-img">
+                		<div class="my-favotite-3-text">
+                    		<p class="activity"><b>下班後的居酒屋</b></p>
+                        	<p class="location"><b>大阪，日本</b></p>
+                    	</div>
+					</div>
+                </a>
+			</div> 
+<!--======================================
+                 評價
+==========================================-->            
+      <h3 class="p-s-p-evaluation">評價 (<span class="real-evaluate-count">2</span></h3> 
+      	<div class="row">
+		<div class="col-md-2">
+			<img alt="個人頭像" src="PIC/周冬雨.jpg" class="img-circle"/>
+		</div>
+		<div class="col-md-10">
+			<blockquote>
+				<p class="comment">
+					不小心聽到王若琳的Lost In Paradise輕快的旋律讓我想起了"我在墾丁。天氣晴"這齣戲
+                     ，原來.我的心還遺留在墾丁.每天陽光.沙灘,啤酒.的日子.連空氣也瀰漫著幸福的味道
+				</p> 
+                <a href="#"><small class="guest-location">來自大阪， 日本， 2015 5月</small></a>
+			</blockquote>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-2">
+			<img alt="個人頭像" src="PIC/c2hpeGkxMzQyNDI5Njk0.jpg" class="img-circle" />
+		</div>
+		<div class="col-md-10">
+			<blockquote>
+				<p class="comment">
+					走過北投公園，櫻花季尾聲公園內還是可以看到一兩株的粉櫻，在公園末端就是紅很久的北投圖書館啦！身為台灣第一座綠建
+                    築圖書館，典雅的木製建築吸在剛開幕時引許多遊客拍照，整個圖書館鬧哄哄的，導致真正的使用者抗
+                    議連連，所以現在館內拍照需先在櫃台申請才可以，我們進去逛一下就出來了，裡頭相當舒適，好像一座咖啡館，平日來這裡讀讀書感覺不錯～
+				</p> <small class="guest-location">來自New York， USA， 2016 4月</small>
+			</blockquote>
+		</div>
+	</div>
+    
+		<div class="col-md-2">
+		</div>
+        
+	</div>
+</div>
+
+<!--==========================================================================================================
+													Footer
+===========================================================================================================-->
+<div class="container-fluid footerlist-all">
+	<div class="row footerlist">
+		<div class="col-md-12">
+			<div class="row">
+				<div class="col-md-3">
+					<ul>
+						<li style="list-style:none;font-size:20px">
+							<u>公司</u>
+						</li>
+						<li>
+							<a href="#">關於</a>
+						</li>
+						<li>
+							<a href="#">服務條款及隱私說明</a>
+						</li>
+						<li>
+							<a href="#">新手幫助</a>
+						</li>
+           <!--         <li>
+							<a href="#">會員須知</a>
+						</li>-->
+					</ul>
+				</div>
+				<div class="col-md-3">
+					<ul>
+						<li style="list-style:none;font-size:20px">
+							<u>探險家</u>
+						</li>
+						<li>
+							<a href="#">信任與安全機制</a>
+						</li>
+						<li>
+							<a href="#">取得體驗基金</a>
+						</li>
+						<li>
+							<a href="#">Trible精選</a>
+						</li>
+						<li>
+							<a href="#">手機行動版</a>
+						</li>
+					</ul>
+				</div>
+                <div class="col-md-3">
+					<ul>
+						<li style="list-style:none;font-size:20px">
+							<u>分享家</u>
+						</li>
+						<li>
+							<a href="#">為什麼要分享?</a>
+						</li>
+						<li>
+							<a href="#">好客之道</a>
+						</li>
+						<li>
+							<a href="#">分享家義務</a>
+						</li>
+						<li>
+							<a href="#">品質維護</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-md-3">
+                	<u style="font-size:20px;">聯絡我們</u>
+					<form role="form">
+						<div class="form-group">
+						  	 
+						<!--	<label for="exampleInputEmail1">
+								電子郵件信箱
+							</label>    -->
+							<input type="email" class="form-control" id="exampleInputEmail1" placeholder="您的電子信箱?"/>
+						  
+                        </div>
+						<div class="form-group"> 	
+                          						 
+						<!--	<label for="exampleInputQuestion">
+								姓名 / 暱稱
+							</label>   -->
+						<!--	<input type="text" class="form-control" id="exampleInputQuestion" />  -->
+						  
+                        </div>
+                        <div class="form-group">
+                          						 
+							<label for="exampleInputQuestion" style="display:block">
+								問題內容
+							</label>
+                            <textarea rows="5" placeholder="遇到了什麼問題..?" style="width:100%;color:#000"></textarea>                	  
+					<!--		<input type="text" class="form-control" id="exampleInputQuestion" />   -->
+						  
+                        </div>
+						<button type="submit" class="btn btn-default">
+							確認送出
+						</button>
+					</form>
+				 </div>
+		   </div>
+        </div>  
+    </div>      
+</div> 
+  
+<!--=====================================================
+Social media
+======================================================-->          
+<!--Social media-->           
+<div class="container-fluid socialsoftware">
+	<div class="row">
+    	<div class="col-md-12 ">
+        <h4>關注我們</h4>
+		</div>
+		<div class="col-md-4">        	
+		</div>
+        <div class="col-md-4">
+			<div class="row">
+				<div class="col-md-2 socialsoftware-icon">
+ 					<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+				</div>
+				<div class="col-md-2 socialsoftware-icon">
+        			<a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+				</div>
+				<div class="col-md-2 socialsoftware-icon">
+        			<a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+				</div>
+				<div class="col-md-2 socialsoftware-icon">
+        			<a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+				</div>
+				<div class="col-md-2 socialsoftware-icon">
+        			<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+				</div>
+				<div class="col-md-2 socialsoftware-icon">
+        			<a href="#"><i class="fa fa-weibo" aria-hidden="true"></i></a>
+				</div>
+            </div>
+        </div>
+		<div class="col-md-4">
+		</div>
+        <div class="col-md-12 company">
+			<p class="text-center">
+				<i class="fa fa-copyright" aria-hidden="true"></i>2016 TripCelL
+			</p>
+		</div>
+        
+	</div>
+</div> 
+
+<!--********************************************************************************************************
+													close for Footer
+************************************************************************************************************-->   
+
+<!--PlugIn Script!-->
+
+	<script src="../all_file/JS/jquery-2.2.4.min.js"></script>
+	<script src="../all_file/JS/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/329cc9645e.js"></script>
+</body>
+</html>

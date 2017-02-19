@@ -1,0 +1,116 @@
+ @charset "utf-8";
+
+/*==========================================================================================================================
+														會員資料頁面-你的探險-分享探險
+===========================================================================================================================*/
+
+/*================================
+    navbar-bottom-list(nav下方bar)
+==================================*/
+div.m-p-explore-travel_form{
+	font-family: "微軟正黑體", "華康粗圓體", "超研澤中鋼筆行楷", "文鼎粗行楷";
+	background-color:#f9f9f9;
+	padding-bottom:4vh;
+}
+
+div.row.NavbarBottom{
+	margin-top:8vh;
+	background-color:#82d8d5;
+	height:6vh;
+}
+
+a.return-front-page{
+	height:6vh;
+	line-height:6vh;
+	color:#FFF;
+}
+a.return-front-page:hover,
+a.return-front-page:focus{
+	color:#FFF;
+}
+
+/*================================
+    		分享探險內文
+==================================*/
+div.container-fluid.m-p-explore-share{
+	font-family: "微軟正黑體", "華康粗圓體", "超研澤中鋼筆行楷", "文鼎粗行楷";
+}
+
+button.btn.btn-default:active,
+button.btn.btn-default:focus{
+	color:#FFF;
+	outline:none;
+}
+	
+
+div.share-explore-panel{
+	margin-top:20vh;
+	margin-bottom:20vh;
+}
+
+
+/*新增電子郵件*/
+div.m-p-s-add-email{
+	margin-top:3vh;
+}
+
+input[type="text"].form-control.CreateExp_inputFeature:active,
+input[type="text"].form-control.CreateExp_inputFeature:focus{
+	outline:none;
+	border:1px solid #CCC;
+	box-shadow:none;
+}
+
+button.btn.btn-add{
+	color:#3cdbc0;
+	background-color:#FFF;
+	border:1px solid #CCC;
+}
+
+button.btn.btn-add:active,
+button.btn.btn-add:focus{
+	outline:none;
+}
+
+button.btn-remove{
+	color:#f56d9e;
+	background-color:#FFF;
+	border:1px solid #CCC;
+}
+
+button.btn.btn-remove:active,
+button.btn.btn-remove:focus{
+	color:#f56d9e;
+	background-color:#FFF;
+	border:1px solid #CCC;
+	outline:none;
+}
+
+
+/*panel-footer*/
+div.m-p-e-s-button{
+	background-color:#FFF;
+	margin-top:5vh;
+	padding-top:2vh;
+}
+
+
+/*button*/
+button.m-p-e-s-send-button{
+	background-color:#7a93dc;
+	color:#FFF;
+	border-radius:0;
+	padding-left:1vw;
+	padding-right:1vw;
+}
+
+button.m-p-e-s-send-button:hover,
+button.m-p-e-s-send-button:focus{
+	background-color:#5071d1;
+	color:#FFF;
+}
+
+
+
+
+

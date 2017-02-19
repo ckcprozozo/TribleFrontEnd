@@ -1,0 +1,62 @@
+ @charset "utf-8";
+
+
+/*==============================================================================================================
+													foooter
+=================================================================================================================*/
+div.footerlist-all li{
+	list-style:none;
+}
+
+div.footerlist{
+	background-color:#666;
+	color:#FFF;
+	font-family:"華康粗圓體", "微軟正黑體", "超研澤中鋼筆行楷", "文鼎粗行楷";
+	padding:1%;
+	padding-left:10%;
+	padding-right:10%;
+}
+
+div.footerlist a{
+	text-decoration:none;
+	color:#CCC;
+}
+
+input#exampleInputEmail1[type=email]{
+	border-radius:0;
+}
+/* socialsoftware */
+div.socialsoftware{
+	text-align:center;
+	font-size:24px;
+	background-color:#333;
+	color:#FFF;
+	font-family:"華康粗圓體", "微軟正黑體", "超研澤中鋼筆行楷", "文鼎粗行楷";
+	padding-bottom:2.5vh;
+}
+
+
+div.company p{
+	color:#666;
+	margin-top:2.5vh;
+	font-size:16px;
+}
+
+/*icon design*/
+
+div.socialsoftware-icon a{
+	display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #909090;
+    border-radius: 50px;
+}
+
+div.socialsoftware-icon a i{
+    font-size: 15px;
+    color:#FFF;
+}
+
+div.socialsoftware-icon a i:hover{
+	color:#999;
+}

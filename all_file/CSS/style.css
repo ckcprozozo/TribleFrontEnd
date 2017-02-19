@@ -1,0 +1,186 @@
+
+
+nav.navbar{
+	height:5vh;
+	border:none;
+	width:100%;
+	position:relative;
+}
+
+/*首頁大圖的地方*/
+div.jumbotron{
+	background-image:url(file:///D|/tt/%E7%B6%B2%E7%AB%99/XXXXXXXXXXX%20website/layoutit/src/image/Homepage/homepage.jpg);
+	height:100vh;
+	z-index:-1;
+	background-size:cover;
+	padding:0px;
+	margin:0px;
+	position:relative;
+	top:-5vh;
+}
+
+div.jumbotron h1{
+	position:relative;
+	top:35vh;
+	left:4vw;
+	color:#FFF;
+	font-family:'華康粗圓體', '微軟正黑體', '超研澤中鋼筆行楷', '文鼎粗行楷';
+	max-width:80%;
+	left:4vw;
+}
+
+div.jumbotron span{
+	position:relative;
+	bottom:-5vh;
+	left:-20.5vw;
+	font-size:20px;
+	font-weight:bolder;
+	color:#999;
+}
+
+
+/*搜尋bar的地方*/
+div.searchbar{
+	text-align:center;
+	max-width:80%;
+	text-align:center;
+	font-family:"華康粗圓體", "微軟正黑體", "超研澤中鋼筆行楷", "文鼎粗行楷";
+	z-index:1;
+	position:relative;
+	left:3vw;
+	top:-35vh;
+}
+
+input.form-control[type=search]{
+	 font-size:20px;
+	 color:#FFF;
+	 height:50px;
+	 padding:0px;
+	 background-color:rgba(0,0,0,0);
+	 border:3px #FFFFFF solid;
+	 max-width:100vw;
+}
+div.searchbar button{
+	 height:50px;
+	 font-size:20px;
+}
+/*三個icon 的部分 */
+div.three-icon{
+	position:relative;
+	top:-15vh;
+	text-align:center;
+}
+
+div.three-icon-text{
+	font-family:"華康粗圓體", "微軟正黑體", "超研澤中鋼筆行楷", "文鼎粗行楷";
+}
+
+div.three-icon-imagegroup{
+	padding-top:5vh;;
+	margin-bottomm:0px;
+}
+
+/*What 介紹的部分 */
+div.subtitle-what{
+	font-family:"華康粗圓體", "微軟正黑體", "超研澤中鋼筆行楷", "文鼎粗行楷";
+	margin-top:5vh;;
+	position:relative;
+	top:-15vh;
+	background-color:#E8E8E8;
+	padding-bottom:5vh;
+}
+
+div.subtitle-what-text{
+	margin-bottom:5vh;
+	text-align:center;
+
+}
+
+div.what-introduceBigA{
+	max-width:100vw;
+	text-align:left;
+				border:#F00 5px solid;
+}
+
+div.what-introduceA{
+	text-align:left;
+}
+img.introduce-imgA{
+	height:50%;
+	width:50%;
+	max-width:100vw;
+}
+
+div.what-introduceBigB{
+	max-width:100vw;
+	text-align:left;
+}
+
+div.what-introduceB{
+	text-align:right;
+}
+
+img.introduce-imgB{
+	height:50%;
+	width:50%;
+	max-width:100vw;
+}
+
+
+/* 成為領頭羊的部分 */
+
+div.localguy{
+	position:relative;
+	top:-15vh;
+	font-family:"華康粗圓體", "微軟正黑體", "超研澤中鋼筆行楷", "文鼎粗行楷";
+	margin:5vh;
+}
+
+div.localguy h1,p{
+	text-align:center;
+}
+
+ul.localcheck{
+	list-style:none;
+	font-size:25px;
+}
+
+a.localbutton{
+	position:relative;
+	left:-37vw;
+	background-color:#F66;
+	border:none;
+}
+
+/* Footer  */
+div.footerlist{
+	background-color:#666;
+	color:#FFF;
+	font-family:"華康粗圓體", "微軟正黑體", "超研澤中鋼筆行楷", "文鼎粗行楷";
+	padding:5%;
+	position:relative;
+	top:-15vh;
+}
+
+div.footerlist a{
+	text-decoration:none;
+	color:#CCC;
+}
+
+
+/* socialsoftware */
+div.socialsoftware{
+	text-align:center;
+	font-size:24px;
+	background-color:#333;
+	color:#FFF;
+	font-family:"華康粗圓體", "微軟正黑體", "超研澤中鋼筆行楷", "文鼎粗行楷";
+	position:relative;
+	top:-15vh;
+}
+
+
+
+
+
+

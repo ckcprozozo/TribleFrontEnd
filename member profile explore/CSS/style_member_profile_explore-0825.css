@@ -1,0 +1,338 @@
+ @charset "utf-8";
+
+/*==========================================================================================================================
+														會員資料頁面
+===========================================================================================================================*/
+
+/*================================
+    navbar-bottom-list(nav下方bar)
+==================================*/
+div.m-p-sheet{
+	font-family:"微軟正黑體";
+}
+
+
+div.row.NavbarBottom{
+	margin-top:8vh;
+	background-color:#82d8d5;
+	height:6vh;
+}
+
+span.NavbarBottomListCotent{
+	padding:2vh;
+	font-size:14px;
+	height:6vh;
+	line-height:6vh;
+}
+
+
+span.NavbarBottomListCotent a{
+	color:#000;
+	text-decoration:none;
+	border:1px solid #82d8d5;
+}
+
+div.col-md-10 span.NavbarBottomListCotent a{
+	padding:1vh;
+}
+
+span.active.NavbarBottomListCotent a{
+	padding-left:0;
+}
+
+
+span.NavbarBottomListCotent a:hover,
+span.NavbarBottomListCotent a:focus{
+	color:#FFF;
+}
+
+span.active.NavbarBottomListCotent a{
+	color:#FFF;
+}
+
+/*================================================================
+   						"你的探險" 正文開始
+=================================================================*/
+
+/*===========你的探險 共同部分============*/
+div.container-fluid{
+	font-family: "微軟正黑體", "華康粗圓體", "超研澤中鋼筆行楷", "文鼎粗行楷";
+}
+
+div.member-profile-explore{
+	background-color:#f9f9f9;
+	padding-bottom:2vw;
+}
+
+button.btn.btn-default,
+button.btn.btn-default:active,
+button.btn.btn-default:focus{
+	outline:none;
+	border-radius:0;
+}
+
+button.btn.blue{
+	background-color:#7a93dc;
+	color:#FFF;
+	border-radius:0;
+}
+
+button.btn.blue:hover,
+button.btn.blue:active,
+button.btn.blue:focus{
+	background-color:#5071d1;
+	color:#FFF;
+}
+
+/*參與的探險下拉式選單*/
+div.DropdownMenuForJoinExplore{
+	margin-top:4vh;
+	width:11vw;
+	margin-left:5.5vw;
+	height:6vh;
+}
+
+
+/*你的探險左側 Menu*/
+div.MemberProfileExploreMenu{
+}
+
+
+ul.m-p-e-menu li a{
+	font-size:20px;
+	font-weight:bold;
+	height:7vh;
+	line-height:7vh;
+	text-decoration:none;
+	color:#999;
+}
+
+ul.m-p-e-menu li a:hover{
+	color:#CCC;
+}
+
+ul.m-p-e-menu li a:focus{
+	color:#000;
+}
+
+ul.m-p-e-menu li.active a{
+	color:#000;
+}
+
+button.m-p-e-StartAdventure{
+	margin-top:8vh;
+	background-color:#7a93dc;
+	color:#FFF;
+	border-radius:0;
+}
+
+button.m-p-e-StartAdventure:hover,
+button.m-p-e-StartAdventure:focus,
+button.btn.m-p-e-StartAdventure:active{
+	border-radius:0;
+	background-color:#5071d1;
+	color:#FFF;
+}
+
+
+/*你的探險 右側內容 border,高,寬*/
+
+div.col-md-8.MemberProfileExploreContent{
+	border:1px solid #CCC;
+	width:65vw;
+	min-height:73vh;
+	background-color:#FFF;
+}
+
+/*=================你的探險 不同部分====================*/
+
+/*你的探險 右側內容 none*/
+div.m-p-e-c-JoinExpText{
+	text-align:center;
+	margin-top:30vh;
+}
+
+div.m-p-e-c-FavoriteText{	
+	text-align:center;
+	margin-top:30vh;
+}
+
+
+
+/*你的探險 右側內容 show*/
+
+/*=======參與的探險========*/
+/*上方list*/
+
+div.JoinExploreList{
+	border-bottom:1px solid #CCC;
+	margin-right:1vw;
+	margin-left:1vw;
+}
+
+
+/*==已預定==*/
+div.row.j-e-status-AlreadyBooking{
+	border-bottom:1px solid #CCC;
+	margin-left:1vw;
+	margin-right:1vw;
+	padding-top:1.5vh;
+	padding-bottom:1.5vh;
+}
+
+h4.j-e-s-a-booking{
+	color:#5071d1;
+}
+
+/*日期地點*/
+div.j-e-DateLocation{
+}
+
+/*詳情*/
+div.j-e-detail{
+}
+
+div.j-e-detail ul li a{
+	color:#7a93dc;
+}
+
+div.j-e-detail ul li a:hover,
+div.j-e-detail ul li a:focus{
+	color:#5071d1;
+}
+	
+
+/*體驗內容-圖*/
+div.to-exp-content-img{
+	padding-left:0;
+}
+div.to-exp-content-img img{
+	width:10vw;
+	height:14vh;
+	border:1px solid #CCC;
+}
+div.to-exp-content-img img:hover{
+	border:1px solid #666;
+}
+
+/*連結行程總表單*/
+div.travel-form-button{
+	padding-left:0;
+}
+
+button.travel-form-link{
+	background-color:#7a93dc;
+	color:#FFF;
+	border-radius:0;
+}
+
+button.travel-form-link:hover,
+button.travel-form-link:focus,
+button.btn.travel-form-link:active{
+	border-radius:0;
+	background-color:#5071d1;
+	color:#FFF;
+}
+
+/*==已取消==*/
+div.row.j-e-status-AlreadyCancel{
+	border-bottom:1px solid #CCC;
+	margin-left:1vw;
+	margin-right:1vw;
+	padding-top:1.5vh;
+	padding-bottom:1.5vh;
+}
+
+h4.j-e-s-a-cancel{
+	color:#82d8d5;
+}
+
+/*已參與*/
+div.row.j-e-status-AlreadyJoin{
+	border-bottom:1px solid #CCC;
+	margin-left:1vw;
+	margin-right:1vw;
+	padding-top:1.5vh;
+	padding-bottom:1.5vh;
+}
+
+h4.j-e-s-a-join{
+	color:#fcb131;
+}
+
+/*待確認*/
+div.row.j-e-status-ToBeConfirm{
+	border-bottom:1px solid #CCC;
+	margin-left:1vw;
+	margin-right:1vw;
+	padding-top:1.5vh;
+	padding-bottom:1.5vh;
+}
+
+h4.j-e-s-t-BeConfirm{
+	color:#999;
+}
+
+a.btn.ImmediatelyCancel{
+	background-color:#7a93dc;
+	color:#FFF;
+	border-radius:0;
+}
+
+a.btn.ImmediatelyCancel:hover,
+a.btn.ImmediatelyCancel:focus,
+a.btn.ImmediatelyCancel:active{
+	border-radius:0;
+	background-color:#5071d1;
+	color:#FFF;
+	outline:none;
+}
+
+
+/*Join-Explore content下方分頁*/
+ul.pagination li a{
+	margin-right:1vw;
+	color:#91dfdf;
+}
+ul.pagination li a:hover,
+ul.pagination li a:focus{
+	background-color:#FFF;
+}
+
+div.pagination-bar{
+	text-align:center;
+}
+
+
+/*===========心願單============*/
+
+/*"心願單"內容*/
+div.row.m-p-e-WishList{
+	margin-top:5vh;
+}
+
+div.m-p-e-wishlist-img img{
+	text-align:center;
+	width:100%;
+	height:38vh;
+	border:1px solid #CCC;
+}
+
+div.m-p-e-wishlist-text{
+	text-align:center;
+	border:1px solid #CCC;
+}
+
+div.m-p-e-wishlist-img:hover .m-p-e-wishlist-img-img,
+div.m-p-e-wishlist-img:hover .m-p-e-wishlist-text{
+	border:1px solid #666;
+}
+
+/*"心願單"下方分頁*/
+div.pagination-bar.wishlist{
+	margin-top:3vh;
+}
+
+
+
+
