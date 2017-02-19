@@ -1,0 +1,830 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+<title>會員專區-你的探險-show</title>
+
+    <meta name="description" content="Offical webpage of TripCelL">
+    <meta name="author" content="TripCelL_productor">
+
+	<link href="CSS/style_member_profile_explore-1017-final.css" rel="stylesheet">
+    <link href="../all_file/CSS/navbar/style_Navigation_Bar_Final-0821.css" rel="stylesheet">
+    <link href="../all_file/CSS/footer/style_Trible_for_footer.css" rel="stylesheet">    
+    <link href="../all_file/CSS/bootstrap.min.css" rel="stylesheet">
+    <link href="../all_file/CSS/animate.css" rel="stylesheet">
+    <link href="../all_file/CSS/hover-min.css" rel="stylesheet">
+    <link href="../all_file/CSS/bootstrap-formhelpers.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<!--==========================================================================================================================
+                 										navigation
+===========================================================================================================================-->
+<div class="container-fluid">
+	<div class="row ">
+		<div class="col-md-12 fix-navbar-top"> <!--data-spy="affix" data-offset-top="330" data-offset-bottom="330"-->
+			<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            
+				<div class="navbar-header">				 
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						 <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+					</button> <a class="navbar-brand" href="#" style="border-right:1px solid #999; height:8vh;">Brand</a>
+                    
+                    <div class="navbar-form navbar-left" role="search">
+                    	<i class="fa fa-search" aria-hidden="true"></i>
+						<div class="form-group">
+							<input type="search" class="form-control" placeholder="想去哪裡 ?" style="width:20vw;"/>
+						</div> 
+				    </div>
+                   
+                    
+				</div><!--colse for navbar-header!-->
+				
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse">
+			
+					<ul class="nav navbar-nav navbar-right">
+                    	<li class="navbar-list-system-notice">
+                        	<a href="#" class="dropdown-toggle btn nabar-list">
+                            <img src="../all_file/Image/navbar icon/message2.png" class="navbar-icon-message">
+                            <span class="system-notice">收件夾</span>
+                            </a>
+                            	<ul class="dropdown-menu navbar-list-system-notice-content">
+              						<li><a href="#" class="hvr-curl-bottom-right"><h5>通知<span class="space"></span></h5></a></li>
+                                		<li class="divider"></li>
+                                	<li><a href="#" class="hvr-curl-bottom-right"><h5>訊息<span class="space"></span></h5></a></li>
+                                    	<li class="divider"></li>
+                                	<li><a href="#" class="hvr-curl-bottom-right"><h5>對話<span class="space"></span></h5></a></li>
+            					</ul>
+                        </li>
+                        
+                        <li class="navbar-list-share-trip">
+                        	<a href="#" class="dropdown-toggle btn nabar-list">
+                            <img src="../all_file/Image/navbar icon/share.png" class="navbar-icon-favorites">
+                            <span class="share-trip">分享家</span>
+                            </a>
+                            	<ul class="dropdown-menu navbar-list-share-trip-content">
+              						<li><a href="#" class="hvr-curl-bottom-right"><h5>分享家介紹<span class="space"></span></h5></a></li>
+                                		<li class="divider"></li>
+                                	<li><a href="#" class="hvr-curl-bottom-right"><h5>管理你的分享<span class="space"></span></h5></a></li>
+                                        <li class="divider"></li>
+                                	<li><a href="#" class="hvr-curl-bottom-right"><h5>創建體驗<span class="space"></span></h5></a></li>
+                                		<li class="divider"></li>
+                                	<li><a href="#" class="hvr-curl-bottom-right"><h5>交易紀錄<span class="space"></span></h5></a></li>
+                                		<li class="divider"></li>
+                                	<li><a href="#" class="hvr-curl-bottom-right"><h5>待客之道<span class="space"></span></h5></a></li>
+
+            				    </ul>
+                        </li>
+                        
+              			<li class="navbar-list-experience-list">
+                        	<a href="#" class="dropdown-toggle btn nabar-list">
+                            <img src="../all_file/Image/navbar icon/expore.png" class="navbar-icon-experience">
+                            <span class="experience-list">探險</span>
+                            </a>
+                        </li>
+                        
+                        <li class="navbar-list-m-p-e-WL-personal-photo">
+                        	<a href="#" class="dropdown-toggle btn nabar-list-img">潔西卡                      
+								<img alt="大頭貼" src="../all_file/Image/navbar icon/four-leaf.jpg" class="profile">                                	
+                       	 	</a>
+                            	<ul class="dropdown-menu navbar-list-m-p-e-WL-personal-photo-content">
+              						<li><a href="#" class="hvr-curl-bottom-right"><h5>查看個人資料<span class="space"></span></h5></a></li>
+                                    	<li class="divider"></li>
+                                    <li><a href="#" class="hvr-curl-bottom-right"><h5>帳戶設定<span class="space"></span></h5></a></li>
+                                		<li class="divider"></li>
+                                	<li><a href="#" class="hvr-curl-bottom-right"><h5>心願單<span class="space"></span></h5></a></li>
+                                    	<li class="divider"></li>
+                                    <li><a href="#" class="hvr-curl-bottom-right"><h5>幫助<span class="space"></span></h5></a></li>
+                                    	<li class="divider"></li>
+                                    <li><a href="#" class="hvr-curl-bottom-right"><h5>登出<span class="space"></span></h5></a></li>
+            				    </ul>
+                        </li>
+					</ul>   <!--close for nav navbar-nav navbar-right!-->                     
+				</div>  <!--close for collapse navbar-collapse!-->				
+			</nav>
+            </div>
+            </div>
+            </div>
+
+<!--=====================================================================================================================
+													會員資料頁面
+=========================================================================================================================-->
+
+<div class="container-fluid m-p-sheet">
+	<div class="row NavbarBottom">
+		<div class="col-md-1">
+		</div>
+        
+		<div class="col-md-10">
+        	<span class="NavbarBottomListCotent NBLC-p"><a href="../member profile inbox/member profile inbox show - 1010.html" id="m-p-Inbox">收件夾</a></span>
+        	<span class="NavbarBottomListCotent NBLC-p"><a href="../member profile YouShare/member_profile_YouShare_YB-state3-1017.html" id="m-p-Share">你的分享</a></span>
+            <span class="active NavbarBottomListCotent NBLC-p"><a href="#" id="m-p-Explore">你的探險</a></span>
+            <span class="NavbarBottomListCotent NBLC-p"><a href="#" id="m-p-PersonalSheet">個人資料</a></span>
+            <span class="NavbarBottomListCotent NBLC-p"><a href="../member profile Account/member_profile_account-1102.html" id="m-p-Account">帳戶</a></span>
+            <span class="NavbarBottomListCotent NBLC-p"><a href="#" id="m-p-TravelFund">旅遊基金</a></span>
+         </div>		<!--close for "col-md-10"-->
+            
+		<div class="col-md-1">
+		</div>
+        
+	</div>		<!--close for "row NavbarBottom"-->
+</div>		<!--close for "container-fluid m-p-sheet"-->
+
+<!--==========================================================================================================
+											"你的探險" 正文開始
+==========================================================================================================-->
+
+<div class="container-fluid member-profile-explore">
+
+<!--======參與的探險下拉式選單======-->
+	<div class="row m-p-e-selectbox">
+		<div class="col-md-9"></div>
+		<div class="col-md-2 DropdownMenuForJoinExplore">
+           <div class="bfh-selectbox m-p-e-Join-select" data-name="selectbox1">
+  		   	   <a href="#"><div data-value="1">全部訊息 (<span class="m-p-e-JoinAll-count">0</span>)</div></a>
+  		   	   <a href="#"><div data-value="2">已預訂 (<span class="m-p-e-JoinBooking-count">0</span>)</div></a>
+   		       <a href="#"><div data-value="3">已取消 (<span class="m-p-e-JoinCancel-count">0</span>)</div></a>
+   		       <a href="#"><div data-value="4">已參與 (<span class="m-p-e-JoinJoin-count">0</span>)</div></a>
+   		       <a href="#"><div data-value="5">待確認 (<span class="m-p-e-JoinToBeConfirm-count">0</span>)</div></a>
+   		       <a href="#"><div data-value="6">變更中 (<span class="m-p-e-JoinToChange-count">0</span>)</div></a>
+           </div>
+		</div>
+		<div class="col-md-1"></div>
+	</div>
+    
+	<div class="row row-member-profile-explore">
+    	<!--=====左側留白=====-->
+		<div class="col-md-1"></div>
+        
+        <!--======================左側選單=============================-->	
+		<div class="col-md-2 MemberProfileExploreMenu">
+        	<ul class="list-unstyled m-p-e-menu">
+				<li class="active"><a href="#" data-target-id="m-p-e-JoinExplore" id="m-p-e-JoinExplore-link">參與的探險</a></li>
+				<li><a href="#" data-target-id="m-p-e-Favorite" id="m-p-e-Favorite-link">心願單</a></li>
+			</ul>
+            
+            <button type="button" class="btn btn-lg btn-default m-p-e-StartAdventure">
+				開始探險
+			</button>
+            
+		</div>	<!--close "col-md-1 m-p-e-LeftMemu"-->
+        
+<!--==============================================
+					"你的探險"內容
+===============================================-->	
+
+<!--============參與的探險內容================-->
+		<div class="col-md-8 MemberProfileExploreContent" id="m-p-e-JoinExplore">
+        	<!--參與的探險上方list(狀態/日期/地點/詳情)-->
+        	<div class="row JoinExploreList">
+				<div class="col-md-2">
+                	<h4 class="j-e-list status">狀態</h4>
+				</div>
+				<div class="col-md-2">
+                	<h4 class="j-e-list exp-content">體驗內容</h4>
+				</div>
+				<div class="col-md-4">
+                	<h4 class="j-e-list">日期時間和活動名稱</h4>
+				</div>
+				<div class="col-md-2">
+                	<h4 class="j-e-list">詳情</h4>
+				</div>
+				<div class="col-md-2">
+				</div>
+			</div>	<!--close "row JoinExploreList"-->
+            
+        	<!--狀態:已預訂-->
+        	<div class="row j-e-status-AlreadyBooking">
+				<div class="col-md-2">
+                	<h4 class="j-e-s-a-booking"><b>已預訂</b></h4>
+				</div>
+				<div class="col-md-2 to-exp-content-img">
+                	<a href="#">
+                    	<img alt="體驗內容" src="image/體驗內容-正妹遛狗.jpg"/>
+                    </a>
+				</div>
+				<div class="col-md-4 j-e-DateLocation">
+                	<ul class="list-unstyled">
+                		<li><span>2016年8月27日</span>， <span>14:00-17:00</span></li>
+                    	<li><h4><b>體驗名稱-與正妹遛狗</b></h4></li>
+                    </ul>
+				</div>
+				<div class="col-md-2 j-e-detail">
+                	<ul class="list-unstyled">
+                		<li><a href="m-p-explore-travel_form-1017.html" class="">查看訂單</a></li>
+                		<li><a href="../member profile inbox/m-p-inbox-chat-noFooter -0906.html" class="">聯繫分享家</a></li>
+                		<li><a href="m-p-explore-change_cancel-1018.html" class="">更改與取消</a></li>
+                		<li><a href="#" class="">分享至Facebook</a></li>
+                    </ul>
+				</div>
+				<div class="col-md-2 travel-form-button">
+                </div>
+			</div>	<!--close "row status-AlreadyBooking"-->
+            
+            <!--狀態:已取消-->
+            
+        	<div class="row j-e-status-AlreadyCancel">
+				<div class="col-md-2">
+                	<h4 class="j-e-s-a-cancel"><b>已取消</b></h4>
+				</div>
+				<div class="col-md-2 to-exp-content-img">
+                	<a href="#">
+                    	<img alt="體驗內容" src="image/體驗內容-露營.jpg"/>
+                    </a>
+				</div>
+				<div class="col-md-4 j-e-DateLocation">
+                	<ul class="list-unstyled">
+                		<li><span>2016年8月27日</span>， <span>14:00-17:00</span></li>
+                    	<li><h4><b>體驗名稱-露營、看星星</b></h4></li>
+                    </ul>
+				</div>
+				<div class="col-md-2 j-e-detail">
+                	<ul class="list-unstyled">
+                		<li><a href="m-p-explore-travel_form-ForChange-1022.html" class="">查看訂單</a></li>
+                		<li><a href="#" class="">歷史訊息</a></li>
+                    </ul>
+				</div>
+				<div class="col-md-2">
+                </div>
+			</div>	<!--close "row status-AlreadyCancel"-->
+            
+            <!--狀態:已參與-->
+        	<div class="row j-e-status-AlreadyJoin">
+				<div class="col-md-2">
+                	<h4 class="j-e-s-a-join"><b>已參與</b></h4>
+				</div>
+				<div class="col-md-2 to-exp-content-img">
+                	<a href="#">
+                    	<img alt="體驗內容" src="image/體驗內容-釣魚.png"/>
+                    </a>
+				</div>
+				<div class="col-md-4 j-e-DateLocation">
+                	<ul class="list-unstyled">
+                		<li><span>2016年8月27日</span>， <span>14:00-17:00</span></li>
+                    	<li><h4><b>體驗名稱-海浪滔滔我不怕</b></h4></li>
+                    </ul>
+				</div>
+				<div class="col-md-2 j-e-detail">
+                	<ul class="list-unstyled">
+                		<li><a href="#" class="">查看訂單</a></li>
+                		<li><a href="#" class="">歷史訊息</a></li>
+                    </ul>
+				</div>
+				<div class="col-md-2">
+                </div>
+			</div>	<!--close "row status-AlreadyJoin"-->
+            
+            <!--狀態:待確認-->
+        	<div class="row j-e-status-ToBeConfirm">
+				<div class="col-md-2">
+                	<h4 class="j-e-s-t-BeConfirm"><b>待確認</b></h4>
+				</div>
+				<div class="col-md-2 to-exp-content-img">
+                	<a href="#">
+                    	<img alt="體驗內容" src="image/體驗內容-逛街.jpg"/>
+                    </a>
+				</div>
+				<div class="col-md-4 j-e-DateLocation">
+                	<ul class="list-unstyled">
+                		<li><span>2016年8月27日</span>， <span>14:00-17:00</span></li>
+                    	<li><h4><b>體驗名稱-購物狂的異想世界</b></h4></li>
+                        <li>
+                        	<i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+                            分享家已收到你的請求，請耐心等候。
+                            <a href="#" class="text-blue">了解更多</a>  <!--連志footer-->
+                        </li>
+                    </ul>
+				</div>
+				<div class="col-md-2 j-e-detail">
+                	<ul class="list-unstyled">
+                		<li><a href="#" class="">聯繫分享家</a></li>
+                		<li><a href="#" class="">查看訂單</a></li>
+                    </ul>
+				</div>
+				<div class="col-md-2">
+
+	<div class="row">
+		<div class="col-md-12">        
+			<a id="" href="#m-p-e-ImmediatelyCancel" role="button" class="btn btn-lg ImmediatelyCancel" data-toggle="modal">
+            	立即取消
+            </a>
+			
+			<div class="modal fade" id="m-p-e-ImmediatelyCancel" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							 
+							<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+								×
+							</button>
+							<h4 class="modal-title" id="myModalLabel"><b>立即取消</b></h4>
+						</div>
+						<div class="modal-body">
+							<h4>你確定要取消此體驗？</h4>
+						</div>
+						<div class="modal-footer">
+							 
+							<button type="button" class="btn btn-default" data-dismiss="modal">
+								關閉視窗
+							</button> 
+							<button type="button" class="btn btn-default blue">
+								確定取消
+							</button>
+						</div>
+					</div>
+					
+				</div>
+				
+			</div>
+			
+		</div>
+	</div>                    
+                    				
+                </div>	<!--close "col-md-2"-->
+			</div>	<!--close "row j-e-status-ToBeConfirm"-->
+            
+            <!--狀態:變更中1-->			<!--探險家更改體驗時間 or 人數，待分享家確認狀態-->
+        	<div class="row j-e-status-Change1">
+				<div class="col-md-2">
+                	<h4 class="j-e-s-change1"><b>變更中</b></h4>
+				</div>
+				<div class="col-md-2 to-exp-content-img">
+                	<a href="#">
+                    	<img alt="體驗內容" src="image/bookstore.jpg"/>
+                    </a>
+				</div>
+				<div class="col-md-4 j-e-DateLocation">
+                	<ul class="list-unstyled">
+                		<li><span>2016年8月27日</span>， <span>14:00-17:00</span></li>
+                    	<li><h4><b>體驗名稱-在圖書館上演AV情節</b></h4></li>
+                        <li>
+                        	<i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+                            分享家已收到你的請求，請耐心等候
+                        </li>
+                    </ul>
+				</div>
+				<div class="col-md-2 j-e-detail">
+                	<ul class="list-unstyled">
+                		<li><a href="m-p-explore-travel_form-ForChange-1022.html" class="">變更的訂單</a></li>
+                		<li><a href="#" class="">聯繫分享家</a></li>
+                    </ul>
+				</div>
+				<div class="col-md-2">
+                </div>
+			</div>	<!--close "row j-e-status-Change1"-->
+
+
+            <!--狀態:變更中2-->
+        	<div class="row j-e-status-Change2">
+				<div class="col-md-2">
+                	<h4 class="j-e-s-change2"><b>變更中</b></h4>
+				</div>
+				<div class="col-md-2 to-exp-content-img">
+                	<a href="#">
+                    	<img alt="體驗內容" src="image/心願單-汗幕蒸.jpg"/>
+                    </a>
+				</div>
+				<div class="col-md-4 j-e-DateLocation">
+                	<ul class="list-unstyled">
+                		<li><span>2016年8月27日</span>， <span>14:00-17:00</span></li>
+                    	<li><h4><b>體驗名稱-韓國汗幕蒸體驗</b></h4></li>
+                        <li>
+                        	<i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+                            分享家已發出更改訂單需求，請點選右側 「變更訂單」 按鈕，進行確認
+                        </li>
+                    </ul>
+				</div>
+				<div class="col-md-2 j-e-detail">
+                	<ul class="list-unstyled">
+                		<li><a href="m-p-explore-travel_form-ForChange-1022.html" class="">變更的訂單</a></li>
+                		<li><a href="#" class="">聯繫分享家</a></li>
+                    </ul>
+                    </ul>
+				</div>
+				<div class="col-md-2">
+
+	<div class="row">
+		<div class="col-md-12">        
+			<a id="" href="#m-p-e-ConfirmTheChange" role="button" class="btn btn-lg ImmediatelyCancel" data-toggle="modal">
+            	變更訂單
+            </a>
+			
+			<div class="modal fade" id="m-p-e-ConfirmTheChange" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							 
+							<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+								×
+							</button>
+							<h4 class="modal-title" id="myModalLabel"><b>確認分享家更改訂單</b></h4>
+						</div>
+						<div class="modal-body">
+							<h5>分享家已更改訂單內容，請先查看<a href="m-p-explore-travel_form-ForChange-1022.html" class="text-blue">變更的訂單</a>內容，並確定是否進行更改？</h5>
+						</div>
+						<div class="modal-footer">
+							 
+							<button type="button" class="btn btn-default pull-left" data-dismiss="modal">
+								關閉視窗
+							</button>
+							<button type="button" class="btn btn-default">
+								拒絕更改
+							</button>
+							<button type="button" class="btn btn-default blue">
+								已查看訂單，並確認更改
+							</button>
+						</div>
+					</div>
+					
+				</div>
+				
+			</div>
+			
+		</div>
+	</div>                    
+                    				
+                </div>	<!--close "col-md-2"-->
+			</div>	<!--close "row j-e-status-Change2"-->
+
+
+            <!--狀態:變更中3-->
+        	<div class="row j-e-status-Change3">
+				<div class="col-md-2">
+                	<h4 class="j-e-s-change3"><b>變更中</b></h4>
+				</div>
+				<div class="col-md-2 to-exp-content-img">
+                	<a href="#">
+                    	<img alt="體驗內容" src="image/心願單-汗幕蒸.jpg"/>
+                    </a>
+				</div>
+				<div class="col-md-4 j-e-DateLocation">
+                	<ul class="list-unstyled">
+                		<li><span>2016年8月27日</span>， <span>14:00-17:00</span></li>
+                    	<li><h4><b>體驗名稱-韓國汗幕蒸體驗</b></h4></li>
+                        <li>
+                        	<i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+                            分享家已確認你的更改請求，因有差額尚未補足，請點選右側 「立即付款」 按鈕，完成付款
+                        </li>
+                    </ul>
+				</div>
+				<div class="col-md-2 j-e-detail">
+                	<ul class="list-unstyled">
+                		<li><a href="m-p-explore-travel_form-ForChange-1022.html" class="">變更的訂單</a></li>
+                		<li><a href="#" class="">聯繫分享家</a></li>
+                    </ul>
+                    </ul>
+				</div>
+				<div class="col-md-2">
+					<button type="button" class="btn btn-default btn-lg blue">
+						立即付款
+					</button>
+                </div>	<!--close "col-md-2"-->
+			</div>	<!--close "row j-e-status-Change3"-->
+
+
+
+            
+                               
+            
+<!--======="參與的探險"內容分頁切換=======-->                     
+                    <div class="row for-pagination-JoinExplore">
+                    	<div class="col-md-4">
+                    	</div>
+                    	<div class="col-md-4 pagination-bar">
+							<ul class="pagination notice">
+								<li>
+									<a href="#" class="left-arrow"> < </a>
+								</li>
+								<li>
+									<a href="#">1</a>
+								</li>
+								<li>
+									<a href="#">2</a>
+								</li>
+								<li>
+									<a href="#">3</a>
+								</li>
+								<li>
+									<a href="#" class="right-arrow"> > </a>
+								</li>
+							</ul>
+						</div> 	<!--close for "col-md-4 pagination-bar"-->
+                    	<div class="col-md-4">
+                    	</div>
+                    </div>  <!--close for "row for-pagination-JoinExplore"-->
+            
+    	</div>	<!--close "col-md-8 MemberProfileExploreContent"-->
+        
+<!--============"心願單"內容==================-->
+		<div class="col-md-8 MemberProfileExploreContent" id="m-p-e-Favorite">
+        
+			<div class="row m-p-e-WishList">
+            
+            	<div class="col-md-4 m-p-e-WL-img">
+                	<a href="#">
+                    	<img class="img-responsive m-p-e-WL-photo-cover" src="image/board-strike.jpg" alt="experience_cover">
+                	</a>
+                	<a href="#">
+                    	<img class="img-responsive img-circle m-p-e-WL-personal-photo " src="image/person-photoDD.jpg" alt="personal_photo">
+               		</a>
+            		<div class="m-p-e-WL-text-group col-md-12">
+                		<h3 class="m-p-e-WL-price">$22130</h3>
+                		<h4>
+                    		<a href="#" class="col-md-12">我有一隻小毛驢我從來也不騎，有一天我心血來潮騎著去趕集。</a>
+                		</h4>
+               
+                		<p class="m-p-e-WL-location">台北Taipei</p>
+                		<p class="col-md-8 m-p-e-WL-EL-judgement">
+                		<i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-half-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i>‧2條評價 
+                		</p>
+                		<p class="col-md-4 text-right">
+                			<img class="m-p-e-WL-EL-Icongroup" src="image/list3.png" data-toggle="tooltip" title="在地感受、嗨玩戶外、恬靜舒適"/ >
+                			<img class="m-p-e-WL-EL-Icongroup" src="image/group3.png" data-toggle="tooltip" title="可接待4人"/>
+                		</p>
+            		</div>	<!--Close for "text-group col-md-12"-->              
+            	</div>	<!--Close for "col-md-4 m-p-e-WL-img"-->
+                
+            
+<!--=================================test====================================-->            
+
+            	<div class="col-md-4 m-p-e-WL-img">
+                	<a href="#">
+                    	<img class="img-responsive m-p-e-WL-photo-cover" src="image/coffee shop.jpg" alt="experience_cover">
+                	</a>
+                	<a href="#">
+                    	<img class="img-responsive img-circle m-p-e-WL-personal-photo " src="image/person-photo2.jpg" alt="personal_photo">
+               		</a>
+            		<div class="m-p-e-WL-text-group col-md-12">
+                		<h3 class="m-p-e-WL-price">$22130</h3>
+                		<h4>
+                    		<a href="#" class="col-md-12">巷弄間的咖啡與書櫥。</a>
+                		</h4>
+               
+                		<p class="m-p-e-WL-location">台北Taipei</p>
+                		<p class="col-md-8 m-p-e-WL-EL-judgement">
+                			1條評價 
+                		</p>
+                		<p class="col-md-4 text-right">
+                			<img class="m-p-e-WL-EL-Icongroup" src="image/list3.png" data-toggle="tooltip" title="在地感受、嗨玩戶外、恬靜舒適"/ >
+                			<img class="m-p-e-WL-EL-Icongroup" src="image/group3.png" data-toggle="tooltip" title="可接待4人"/>
+                		</p>
+            		</div>	<!--Close for "text-group col-md-12"-->              
+            	</div>	<!--Close for "col-md-4 m-p-e-WL-img"-->
+
+            	<div class="col-md-4 m-p-e-WL-img">
+                	<a href="#">
+                    	<img class="img-responsive m-p-e-WL-photo-cover" src="image/camping.jpg" alt="experience_cover">
+                	</a>
+                	<a href="#">
+                    	<img class="img-responsive img-circle m-p-e-WL-personal-photo " src="image/person-photo.jpg" alt="personal_photo">
+               		</a>
+            		<div class="m-p-e-WL-text-group col-md-12">
+                		<h3 class="m-p-e-WL-price">$22130</h3>
+                		<h4>
+                    		<a href="#" class="col-md-12">離塵不離城。</a>
+                		</h4>
+               
+                		<p class="m-p-e-WL-location">台北Taipei</p>
+                		<p class="col-md-8 m-p-e-WL-EL-judgement">
+                		<i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-half-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i>‧5條評價 
+                		</p>
+                		<p class="col-md-4 text-right">
+                			<img class="m-p-e-WL-EL-Icongroup" src="image/list3.png" data-toggle="tooltip" title="在地感受、嗨玩戶外、恬靜舒適"/ >
+                			<img class="m-p-e-WL-EL-Icongroup" src="image/group3.png" data-toggle="tooltip" title="可接待4人"/>
+                		</p>
+            		</div>	<!--Close for "text-group col-md-12"-->              
+            	</div>	<!--Close for "col-md-4 m-p-e-WL-img"-->
+
+
+
+            
+            
+<!--=================================test====================================-->            
+            
+			</div>		<!--Close for "row m-p-e-WishList"-->
+            
+<!--======="心願單"內容分頁切換=======-->                     
+                    <div class="row for-pagination-WishList">
+                    	<div class="col-md-4">
+                    	</div>
+                    	<div class="col-md-4 pagination-bar wishlist">
+							<ul class="pagination notice">
+								<li>
+									<a href="#" class="left-arrow"> < </a>
+								</li>
+								<li>
+									<a href="#">1</a>
+								</li>
+								<li>
+									<a href="#">2</a>
+								</li>
+								<li>
+									<a href="#">3</a>
+								</li>
+								<li>
+									<a href="#" class="right-arrow"> > </a>
+								</li>
+							</ul>
+						</div> 	<!--close for "col-md-4 pagination-bar"-->
+                    	<div class="col-md-4">
+                    	</div>
+                    </div>  <!--close for "row for-pagination-JoinExplore"-->
+        
+		</div>   <!--close "col-md-8 MemberProfileExploreContent"-->     	
+        
+        <!--=====右側留白=====-->
+		<div class="col-md-1"></div>	
+        
+	</div>	<!--close "row-member-profile-explore"-->
+</div>	<!--close "member-profile-explore"-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+<!--==========================================================================================================
+													Footer
+===========================================================================================================-->
+<div class="container-fluid footerlist-all">
+	<div class="row footerlist">
+		<div class="col-md-12">
+			<div class="row">
+				<div class="col-md-3">
+					<ul>
+						<li style="list-style:none;font-size:20px">
+							<u>公司</u>
+						</li>
+						<li>
+							<a href="#">關於</a>
+						</li>
+						<li>
+							<a href="#">服務條款及隱私說明</a>
+						</li>
+						<li>
+							<a href="#">新手幫助</a>
+						</li>
+           <!--         <li>
+							<a href="#">會員須知</a>
+						</li>-->
+					</ul>
+				</div>
+				<div class="col-md-3">
+					<ul>
+						<li style="list-style:none;font-size:20px">
+							<u>探險家</u>
+						</li>
+						<li>
+							<a href="#">信任與安全機制</a>
+						</li>
+						<li>
+							<a href="#">取得體驗基金</a>
+						</li>
+						<li>
+							<a href="#">Trible精選</a>
+						</li>
+						<!--<li>
+							<a href="#">手機行動版</a>
+						</li>-->
+					</ul>
+				</div>
+                <div class="col-md-3">
+					<ul>
+						<li style="list-style:none;font-size:20px">
+							<u>分享家</u>
+						</li>
+						<li>
+							<a href="#">為什麼要分享?</a>
+						</li>
+						<li>
+							<a href="#">熱情好客</a>
+						</li>
+						<li>
+							<a href="#">品質維護</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-md-3">
+                	<u style="font-size:20px;">聯絡我們</u>
+					<form role="form">
+						<div class="form-group">
+						  	 
+						<!--	<label for="exampleInputEmail1">
+								電子郵件信箱
+							</label>    -->
+							<input type="email" class="form-control" id="exampleInputEmail1" placeholder="您的電子信箱?"/>
+						  
+                        </div>
+						<div class="form-group"> 	
+                          						 
+						<!--	<label for="exampleInputQuestion">
+								姓名 / 暱稱
+							</label>   -->
+						<!--	<input type="text" class="form-control" id="exampleInputQuestion" />  -->
+						  
+                        </div>
+                        <div class="form-group">
+                          						 
+							<label for="exampleInputQuestion" style="display:block">
+								問題內容
+							</label>
+                            <textarea rows="5" placeholder="遇到了什麼問題..?" style="width:100%;color:#000"></textarea>                	  
+					<!--		<input type="text" class="form-control" id="exampleInputQuestion" />   -->
+						  
+                        </div>
+						<button type="submit" class="btn btn-default">
+							確認送出
+						</button>
+					</form>
+				 </div>
+		   </div>
+        </div>  
+    </div>      
+</div> 
+  
+<!--=====================================================
+Social media
+======================================================-->          
+<!--Social media-->           
+<div class="container-fluid socialsoftware">
+	<div class="row">
+    	<div class="col-md-12 ">
+        <h4>關注我們</h4>
+		</div>
+		<div class="col-md-4">        	
+		</div>
+        <div class="col-md-4">
+			<div class="row">
+				<div class="col-md-2 socialsoftware-icon">
+ 					<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+				</div>
+				<div class="col-md-2 socialsoftware-icon">
+        			<a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+				</div>
+				<div class="col-md-2 socialsoftware-icon">
+        			<a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+				</div>
+				<div class="col-md-2 socialsoftware-icon">
+        			<a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+				</div>
+				<div class="col-md-2 socialsoftware-icon">
+        			<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+				</div>
+				<div class="col-md-2 socialsoftware-icon">
+        			<a href="#"><i class="fa fa-weibo" aria-hidden="true"></i></a>
+				</div>
+            </div>
+        </div>
+		<div class="col-md-4">
+		</div>
+        <div class="col-md-12 company">
+			<p class="text-center">
+				<i class="fa fa-copyright" aria-hidden="true"></i>2016 Tripbel
+			</p>
+		</div>
+        
+	</div>
+</div> 
+
+<!--********************************************************************************************************
+													close for Footer
+************************************************************************************************************--> 
+             
+<!--script-->
+
+    <script src="../all_file/JS/jquery-2.2.4.min.js"></script>
+    <script src="../all_file/JS/bootstrap.min.js"></script>	
+	<script src="JS/script_member_profile_explore-1017-final.js"></script>
+    <script src="../all_file/JS/wow.min.js"></script>
+    <script src="../all_file/JS/bootstrap-formhelpers.min.js"></script>
+    <script src="https://use.fontawesome.com/329cc9645e.js"></script>
+    <script>
+              new WOW().init();
+    </script>
+
+
+
+</body>
+</html>

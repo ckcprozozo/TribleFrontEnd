@@ -1,0 +1,359 @@
+@charset "utf-8";
+div.container-fluid{
+	font-family: "微軟正黑體","華康粗圓體","超研澤中鋼筆行楷", "文鼎粗行楷";
+}
+
+/*========================================================================================================================
+												navbar after logging
+===========================================================================================================================*/
+
+body{
+	font-family: "微軟正黑體","華康粗圓體","超研澤中鋼筆行楷", "文鼎粗行楷";
+}
+
+div.fix-navbar-top{
+	padding:0px;
+}
+
+nav.navbar{
+	background-color:rgba(0,0,0,0.7);
+	border:none;
+	color:#FFF;
+	font-family: "微軟正黑體","華康粗圓體","超研澤中鋼筆行楷", "文鼎粗行楷";
+	padding-left:3%;
+	font-size:20px;
+}
+
+div.navbar-left i{
+	color:#FFF;
+}
+
+div.navbar-header div.form-group input.form-control[type=search]{
+	border:none;
+	background-color:rgba(0,0,0,0);
+	width:20vw;
+	padding-left:0px;
+	font-size:16px;
+	color:#FFF;
+}
+
+div.navbar-header div.form-group input.form-control[type=search]:focus{
+	border: none;
+	box-shadow: none;
+}
+
+a.navbar-brand{
+	color:#FFF;
+}
+
+ul.navbar-right{
+	font-size:20px;
+	margin-right:5%;
+}
+
+
+/*調整navbar字體置中*/
+a.navbar-brand{
+	padding-top:3vh;
+}
+div.navbar-left{
+	padding-top:1vh;
+}
+
+
+/*navbar icon 調整*/
+img.navbar-icon-message{
+	width:5vh;
+	height:5vh;
+}
+
+img.navbar-icon-favorites{
+	width:5vh;
+	height:5vh;
+}
+
+img.navbar-icon-experience{
+	width:5vh;
+	height:5vh;
+}
+
+/*登入大頭照*/
+img.profile{
+	border-radius:50%;
+	width:33px;
+	height:33px;
+	border:1px solid #FFF;
+}
+
+/*navbar-list-content*/
+span.space{
+	padding-right:10vw;
+}
+
+
+/*navbar list by hover*/
+li.navbar-list-system-notice:hover .navbar-list-system-notice-content{
+	display:block;
+}
+
+li.navbar-list-share-trip:hover  .navbar-list-share-trip-content{
+	display:block;
+}
+
+li.navbar-list-personal-photo:hover .navbar-list-personal-photo-content{
+	display:block;
+}
+
+
+
+/*個人頁面正文*/
+div.personal-sheet{
+	padding-top:90px;
+	background-color:rgba(0,0,0,0.02);
+}
+
+div.panel-default{
+	width:15vw; /*調整左側col-md-2大小*/
+}
+
+div.col-md-6.p-s-p-right-side{
+	margin-left:20px; /*調整右側col-md-6位置*/
+}
+
+/*大頭照*/
+.bigpic img{
+	width:15vw;
+	heigh:15vh; /*調整大頭照大小*/
+}
+
+/*驗證身分*/
+div .id-classify{
+	margin-top:1.5vw; /*調整 "驗證身分" 位置*/
+}
+
+span.p-s-p-new-verify a h6{
+	float:right;
+	color:#f56d9e;
+}
+
+span.p-s-p-new-verify a h6:hover{
+	color:#db0a56;	
+}
+
+div.panel-body h5.check{
+	margin-left:35px;
+	color:#999;
+}
+
+img.identify-icon1{
+	height:2vw;
+	width:2vw;
+}
+
+/*關於我*/
+span.p-s-p-about-me-edit a h6{
+	float:right;
+	color:#f56d9e;
+}
+
+span.p-s-p-about-me-edit a h6:hover{
+	color:#db0a56;	
+}
+
+div.about-me .panel-body h4{
+	font-family: "微軟正黑體","華康粗圓體","超研澤中鋼筆行楷", "文鼎粗行楷";
+}
+
+div.about-me .panel-body p{
+	font-family: "微軟正黑體","華康粗圓體","超研澤中鋼筆行楷", "文鼎粗行楷";
+}
+
+/*創建旅程*/
+div.edit-ex1-img{
+	margin-top:1vh;
+	background-image:url(../PIC/45946-1-big.jpg);
+	background-size:cover;
+	width:15vw;
+	height:25vh;
+	background-color:rgb(0,0,0,0.3);
+	margin-top:2vh;
+	border:1px solid #CCC;
+}
+
+div.edit-ex1-text{
+	text-align:center;
+	margin-top:15vh;
+	color:#FFF;
+	background-color:rgba(0,0,0,0.2);
+}
+
+div.edit-ex1-img:hover{
+	border:1px solid #666;
+}
+
+div.col-md-2.bigpic a.edit-ex1-link{
+	text-decoration:none
+}
+
+div.edit-ex2-img{
+	background-image:url(../PIC/1349342064-3318452517.jpg);
+	background-size:cover;
+	width:15vw;
+	height:25vh;
+	background-color:rgb(0,0,0,0.3);
+	margin-top:2vh;
+	border:1px solid #CCC;
+}
+
+div.edit-ex2-img:hover{
+	border:1px solid #666;
+}
+
+div.edit-ex2-text{
+	text-align:center;
+	margin-top:15vh;
+	color:#FFF;
+	background-color:rgba(0,0,0,0.2);
+}
+
+div.col-md-2.bigpic a.edit-ex2-link{
+	text-decoration:none
+}
+
+a.loading-more p{
+	margin-top:1vh;
+}
+
+a.loading-more{
+	color:#F00;
+}
+
+
+
+/*舉報此用戶*/
+div.p-s-p-right-side i.fa-flag-o{
+	color:#999;
+}
+
+a.report,
+a.report:hover,
+a.report:focus{
+	color:#999;
+}
+
+a#modal-399168:focus{
+	border: none;
+	box-shadow:none;
+	outline:none;
+}
+
+a.p-s-p-PersonalEdit,
+a.p-s-p-PersonalEdit:hover{
+	color:#f56d9e;
+}
+
+div.container-fluid-icon-wall img{
+	height:2vw;
+	width:2vw;
+}
+
+div.col-md-2 a.evaluate-icon-text{
+	text-decoration:none;
+}
+
+/*我的最愛*/
+div.my-favotite-1-img img{
+	width:15vw;
+	height:30vh;
+	background-color:rgb(0,0,0,0.3);
+}
+
+div.my-favotite-1-text{
+	text-align:center;
+}
+
+div.my-favotite-1-text a{
+	text-decoration:none;
+}
+
+
+
+
+
+/*評價*/
+.img-circle{
+	width:6vw;
+	height:6vw;
+}
+
+
+/*==============================================================================================================
+													foooter
+=================================================================================================================*/
+div.footerlist-all{
+	margin-top:2vw;
+}
+
+div.footerlist-all li{
+	list-style:none;
+}
+
+div.footerlist{
+	background-color:#666;
+	color:#FFF;
+	font-family: "微軟正黑體","華康粗圓體","超研澤中鋼筆行楷", "文鼎粗行楷";
+	padding:1%;
+	padding-left:10%;
+	padding-right:10%;
+}
+
+div.footerlist a{
+	text-decoration:none;
+	color:#CCC;
+}
+
+input#exampleInputEmail1[type=email]{
+	border-radius:0;
+}
+/* socialsoftware */
+div.socialsoftware{
+	text-align:center;
+	font-size:24px;
+	background-color:#333;
+	color:#FFF;
+	font-family: "微軟正黑體","華康粗圓體","超研澤中鋼筆行楷", "文鼎粗行楷";
+	padding-bottom:2.5vh;
+}
+
+
+div.company p{
+	color:#666;
+	margin-top:2.5vh;
+	font-size:16px;
+}
+
+/*icon design*/
+
+div.socialsoftware-icon a{
+	display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #909090;
+    border-radius: 50px;
+}
+
+div.socialsoftware-icon a i{
+    font-size: 15px;
+    color:#FFF;
+}
+
+div.socialsoftware-icon a i:hover{
+	color:#999;
+}
+
+
+
+
+
+
+

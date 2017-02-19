@@ -1,0 +1,161 @@
+ @charset "utf-8";
+/* CSS Document */
+
+body{
+	font-family: "微軟正黑體", "華康粗圓體", "超研澤中鋼筆行楷", "文鼎粗行楷";
+}
+
+
+div.PaymentStatus{
+	padding-bottom:17vh;
+}
+
+/*=========================付款Title==============================*/
+
+div.PaymentStatusTitle{
+	margin-top:15vh;
+	background-color:#FFF;
+}
+
+
+div.PaymentStatusTitle div.col-md-9 p{
+	margin-top:5.5vh;
+	font-size:16px;
+}
+
+span.p-e-ErrorReason{
+	color:#F00;
+}
+/*=========================付款內容==============================*/
+
+div.PaymentStatusContent{
+	background-color:#F8F8F8;
+	border-bottom:2px solid #CCC;
+	border-top:2px solid #CCC;
+	padding-bottom:3vh;
+}
+
+div.PaymentStatusContent-successful-1 i{
+	margin-top:2vh;
+	color:#82d8d5;
+}
+
+div.PaymentStatusContent-successful-1 div.col-md-8{
+	border-bottom:1px solid #CCC;
+	padding-bottom:1vh;
+}
+
+
+div.PaymentStatusContent-successful-2{
+	padding-top:1vh;
+}
+
+div.PaymentStatusContent-successful-2 li{
+	margin-bottom:1vh;
+}
+
+/*=========================付款失敗==============================*/
+
+div.PaymentStatusContent-error-1 i{
+	margin-top:2vh;
+	color:#ef426f;
+}
+
+div.PaymentStatusContent-error-1 div.col-md-8{
+	border-bottom:1px solid #CCC;
+	padding-bottom:1vh;
+}
+
+
+button.btn.Red{
+	color:#FFF;
+	background-color:#7a93dc;
+	border-radius:0;
+	outline:none;	
+}
+
+button.btn.Red:hover,
+button.btn.Red:active,
+button.btn.Red:focus{
+	color:#FFF;
+	background-color:#5071d1;
+	border-radius:0
+	
+}
+
+
+
+a.Text-Red{
+	color:#7a93dc;
+}
+
+a.Text-Red:hover,
+a.Text-Red:active,
+a.Text-Red:focus{
+	color:#5071d1;
+}
+	
+/*===============================	
+		 回填OTP-內容樣式
+===============================*/
+div.PaymentStatusContent-successful-1 div.col-md-6{
+	border-bottom:1px solid #CCC;
+	padding-bottom:2vh;
+}
+
+
+input#p-e-OTP-identify[type=text]{
+	height:6vh;
+	border-radius:0;
+	font-size:16px;
+	margin-top:1vh;
+}
+
+button.OTP-blue.btn{
+	margin-top:3vh;
+	background-color:#7a93dc;
+	color:#FFF;
+	padding-left:1vw;
+	padding-right:1vw;
+	padding-top:1vh;
+	padding-bottom:1vh;
+	font-size:16px;
+	border-radius:0;
+	outline:none;
+}
+
+button.OTP-blue:hover{
+	background-color:#5071D1;
+	color:#FFF;
+	outline:none;
+}
+
+button.OTP-blue.btn:active{
+	box-shadow:none;
+	outline:none;
+}
+
+button.OTP-cancel.btn{
+	margin-top:3vh;
+	padding-left:1vw;
+	padding-right:1vw;
+	padding-top:1vh;
+	padding-bottom:1vh;
+	font-size:16px;
+	border-radius:0;
+	outline:none;
+}
+
+button.OTP-cancel:hover{
+	outline:none;
+}
+
+button.OTP-cancel.btn:active{
+	box-shadow:none;
+	outline:none;
+}
+
+label.OTP-identify-title{
+	font-size:16px;
+	margin-top:3vh;
+}
